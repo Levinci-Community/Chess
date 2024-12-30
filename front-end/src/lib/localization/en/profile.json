@@ -1,0 +1,11 @@
+{
+  "changePassword": "Change Password",
+  "statistics": "Statistics",
+  "chess": "Chess",
+  "xiangqi": "Xiangqi",
+  "puzzle": "Puzzle",
+  "elo": "ELO",
+  "no_game": "Number of games",
+  "last_month": "Last month",
+  "current_month": "Current month"
+}

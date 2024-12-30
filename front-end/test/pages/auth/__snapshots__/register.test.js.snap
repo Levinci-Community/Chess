@@ -1,0 +1,198 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders RegisterPage snapshot 1`] = `
+<div>
+  <div
+    class="chakra-container css-25ehpw"
+  >
+    <div
+      class="chakra-stack css-1821gv5"
+    >
+      <div
+        class="chakra-stack css-8g8ihq"
+      >
+        <div
+          class="chakra-stack css-tl3ftk"
+        >
+          <div
+            class="chakra-stack css-1igwmid"
+          >
+            <img
+              alt="common.ute_chess_club"
+              class="chakra-image css-1570kgy"
+              src="/logo.png"
+            />
+            <p
+              class="chakra-text css-1hf07bm"
+            >
+              common.ute_chess_club
+            </p>
+          </div>
+        </div>
+      </div>
+      <div
+        class="css-1b0byzm"
+      >
+        <div
+          class="chakra-stack css-mbssy4"
+        >
+          <div
+            class="chakra-stack css-5bh0zh"
+          >
+            <h2
+              class="chakra-heading css-0"
+            >
+              auth.register_new_account
+            </h2>
+          </div>
+          <div
+            class="chakra-stack css-1gnc3qn"
+          >
+            <div
+              class="chakra-form-control css-0"
+              role="group"
+            >
+              <label
+                class="chakra-form__label css-uvho5g"
+                for="username"
+                id="field-:r0:-label"
+              >
+                 
+                auth.username
+              </label>
+              <input
+                aria-required="true"
+                class="chakra-input css-0"
+                id="username"
+                required=""
+                type="username"
+              />
+            </div>
+            <div
+              class="chakra-form-control css-0"
+              role="group"
+            >
+              <label
+                class="chakra-form__label css-uvho5g"
+                for="password"
+                id="field-:r2:-label"
+              >
+                auth.password
+              </label>
+              <div
+                class="chakra-input__group css-bx0blc"
+                data-group="true"
+              >
+                <div
+                  class="chakra-input__right-element css-dp9r5f"
+                >
+                  <button
+                    aria-label="auth.reveal_password"
+                    class="chakra-button css-p7mkev"
+                    type="button"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      fill="currentColor"
+                      focusable="false"
+                      height="1em"
+                      stroke="currentColor"
+                      stroke-width="0"
+                      viewBox="0 0 20 20"
+                      width="1em"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M10 12a2 2 0 100-4 2 2 0 000 4z"
+                      />
+                      <path
+                        clip-rule="evenodd"
+                        d="M.458 10C1.732 5.943 5.522 3 10 3s8.268 2.943 9.542 7c-1.274 4.057-5.064 7-9.542 7S1.732 14.057.458 10zM14 10a4 4 0 11-8 0 4 4 0 018 0z"
+                        fill-rule="evenodd"
+                      />
+                    </svg>
+                  </button>
+                </div>
+                <input
+                  aria-required="true"
+                  autocomplete="current-password"
+                  class="chakra-input css-0"
+                  id="password"
+                  name="password"
+                  required=""
+                  type="password"
+                />
+              </div>
+            </div>
+            <div
+              class="chakra-form-control css-0"
+              role="group"
+            >
+              <label
+                class="chakra-form__label css-uvho5g"
+                for="email"
+                id="field-:r3:-label"
+              >
+                 
+                auth.email
+              </label>
+              <input
+                aria-required="true"
+                class="chakra-input css-0"
+                id="email"
+                required=""
+                type="email"
+              />
+            </div>
+            <div
+              class="chakra-form-control css-0"
+              role="group"
+            >
+              <label
+                class="chakra-form__label css-uvho5g"
+                for="name"
+                id="field-:r4:-label"
+              >
+                 
+                auth.name
+              </label>
+              <input
+                aria-required="true"
+                class="chakra-input css-0"
+                id="name"
+                required=""
+                type="name"
+              />
+            </div>
+          </div>
+          <div
+            class="chakra-stack css-mbssy4"
+          >
+            <button
+              class="chakra-button css-4xx2wk"
+              type="button"
+            >
+              auth.register
+            </button>
+            <hr
+              aria-orientation="horizontal"
+              class="chakra-divider css-1upb9tn"
+            />
+            <p
+              class="chakra-text css-bmfe2s"
+            >
+              auth.already_have_account
+              <a
+                class="chakra-link css-1o61trh"
+                href="/login"
+              >
+                auth.login
+              </a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

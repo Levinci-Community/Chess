@@ -1,0 +1,259 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders ClubPage snapshot 1`] = `
+<div>
+  <div
+    class="chakra-container css-3laa41"
+  >
+    <div
+      class="css-196weuw"
+    >
+      <div
+        class="css-19l2yg3"
+      >
+        <div
+          class="css-1b9i1lq"
+        >
+          <h2
+            class="chakra-heading css-zx6l2c"
+          >
+            club.calendar_club_meeting
+          </h2>
+          <p
+            class="chakra-text css-zywncr"
+          >
+            club.welcome_to_calendar_club_meeting
+          </p>
+          <div
+            class="css-0"
+          >
+            <p
+              class="chakra-text css-1ggs1sd"
+            >
+              <strong>
+                club.date_time
+                :
+              </strong>
+               
+              club.datetime_not_found
+            </p>
+          </div>
+          <div
+            class="css-1fhgjcy"
+          >
+            <p
+              class="chakra-text css-1x8dgvm"
+            >
+              <strong>
+                club.location
+              </strong>
+               :
+               
+              club.location_not_found
+            </p>
+          </div>
+        </div>
+        <div
+          class="css-17xejub"
+        />
+        <div
+          class="css-0"
+        >
+          <div
+            class="css-1i1ktms"
+          >
+            <button
+              class="chakra-button css-1qctzsy"
+              title="club.play"
+              type="button"
+            >
+              <span
+                class="chakra-button__icon css-1wh2kri"
+              >
+                <svg
+                  aria-hidden="true"
+                  fill="currentColor"
+                  focusable="false"
+                  height="32"
+                  stroke="currentColor"
+                  stroke-width="0"
+                  viewBox="0 0 512 512"
+                  width="32"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M256 112a56 56 0 1 0-56-56 56 56 0 0 0 56 56zm176 336H80a16 16 0 0 0-16 16v32a16 16 0 0 0 16 16h352a16 16 0 0 0 16-16v-32a16 16 0 0 0-16-16zm72.87-263.84l-28.51-15.92c-7.44-5-16.91-2.46-22.29 4.68a47.59 47.59 0 0 1-47.23 18.23C383.7 186.86 368 164.93 368 141.4a13.4 13.4 0 0 0-13.4-13.4h-38.77c-6 0-11.61 4-12.86 9.91a48 48 0 0 1-93.94 0c-1.25-5.92-6.82-9.91-12.86-9.91H157.4a13.4 13.4 0 0 0-13.4 13.4c0 25.69-19 48.75-44.67 50.49a47.5 47.5 0 0 1-41.54-19.15c-5.28-7.09-14.73-9.45-22.09-4.54l-28.57 16a16 16 0 0 0-5.44 20.47L104.24 416h303.52l102.55-211.37a16 16 0 0 0-5.44-20.47z"
+                  />
+                </svg>
+              </span>
+              <p
+                class="chakra-text css-17tpr1m"
+              >
+                club.play
+              </p>
+            </button>
+            <button
+              class="chakra-button css-1qctzsy"
+              title="club.puzzle"
+              type="button"
+            >
+              <span
+                class="chakra-button__icon css-1wh2kri"
+              >
+                <svg
+                  aria-hidden="true"
+                  fill="currentColor"
+                  focusable="false"
+                  height="32"
+                  stroke="currentColor"
+                  stroke-width="0"
+                  viewBox="0 0 576 512"
+                  width="32"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M519.442 288.651c-41.519 0-59.5 31.593-82.058 31.593C377.409 320.244 432 144 432 144s-196.288 80-196.288-3.297c0-35.827 36.288-46.25 36.288-85.985C272 19.216 243.885 0 210.539 0c-34.654 0-66.366 18.891-66.366 56.346 0 41.364 31.711 59.277 31.711 81.75C175.885 207.719 0 166.758 0 166.758v333.237s178.635 41.047 178.635-28.662c0-22.473-40-40.107-40-81.471 0-37.456 29.25-56.346 63.577-56.346 33.673 0 61.788 19.216 61.788 54.717 0 39.735-36.288 50.158-36.288 85.985 0 60.803 129.675 25.73 181.23 25.73 0 0-34.725-120.101 25.827-120.101 35.962 0 46.423 36.152 86.308 36.152C556.712 416 576 387.99 576 354.443c0-34.199-18.962-65.792-56.558-65.792z"
+                  />
+                </svg>
+              </span>
+              <p
+                class="chakra-text css-17tpr1m"
+              >
+                club.puzzle
+              </p>
+            </button>
+          </div>
+          <div
+            class="css-1i1ktms"
+          >
+            <button
+              class="chakra-button css-1qctzsy"
+              title="club.donate"
+              type="button"
+            >
+              <span
+                class="chakra-button__icon css-1wh2kri"
+              >
+                <svg
+                  aria-hidden="true"
+                  fill="currentColor"
+                  focusable="false"
+                  height="32"
+                  stroke="currentColor"
+                  stroke-width="0"
+                  viewBox="0 0 512 512"
+                  width="32"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M256 416c114.9 0 208-93.1 208-208S370.9 0 256 0 48 93.1 48 208s93.1 208 208 208zM233.8 97.4V80.6c0-9.2 7.4-16.6 16.6-16.6h11.1c9.2 0 16.6 7.4 16.6 16.6v17c15.5.8 30.5 6.1 43 15.4 5.6 4.1 6.2 12.3 1.2 17.1L306 145.6c-3.8 3.7-9.5 3.8-14 1-5.4-3.4-11.4-5.1-17.8-5.1h-38.9c-9 0-16.3 8.2-16.3 18.3 0 8.2 5 15.5 12.1 17.6l62.3 18.7c25.7 7.7 43.7 32.4 43.7 60.1 0 34-26.4 61.5-59.1 62.4v16.8c0 9.2-7.4 16.6-16.6 16.6h-11.1c-9.2 0-16.6-7.4-16.6-16.6v-17c-15.5-.8-30.5-6.1-43-15.4-5.6-4.1-6.2-12.3-1.2-17.1l16.3-15.5c3.8-3.7 9.5-3.8 14-1 5.4 3.4 11.4 5.1 17.8 5.1h38.9c9 0 16.3-8.2 16.3-18.3 0-8.2-5-15.5-12.1-17.6l-62.3-18.7c-25.7-7.7-43.7-32.4-43.7-60.1.1-34 26.4-61.5 59.1-62.4zM480 352h-32.5c-19.6 26-44.6 47.7-73 64h63.8c5.3 0 9.6 3.6 9.6 8v16c0 4.4-4.3 8-9.6 8H73.6c-5.3 0-9.6-3.6-9.6-8v-16c0-4.4 4.3-8 9.6-8h63.8c-28.4-16.3-53.3-38-73-64H32c-17.7 0-32 14.3-32 32v96c0 17.7 14.3 32 32 32h448c17.7 0 32-14.3 32-32v-96c0-17.7-14.3-32-32-32z"
+                  />
+                </svg>
+              </span>
+              <p
+                class="chakra-text css-17tpr1m"
+              >
+                club.donate
+              </p>
+            </button>
+            <button
+              class="chakra-button css-1qctzsy"
+              title="club.tv"
+              type="button"
+            >
+              <span
+                class="chakra-button__icon css-1wh2kri"
+              >
+                <svg
+                  aria-hidden="true"
+                  fill="currentColor"
+                  focusable="false"
+                  height="32"
+                  stroke="currentColor"
+                  stroke-width="0"
+                  viewBox="0 0 576 512"
+                  width="32"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M64 0C28.7 0 0 28.7 0 64V352c0 35.3 28.7 64 64 64H240l-10.7 32H160c-17.7 0-32 14.3-32 32s14.3 32 32 32H416c17.7 0 32-14.3 32-32s-14.3-32-32-32H346.7L336 416H512c35.3 0 64-28.7 64-64V64c0-35.3-28.7-64-64-64H64zM512 64V352H64V64H512z"
+                  />
+                </svg>
+              </span>
+              <p
+                class="chakra-text css-17tpr1m"
+              >
+                club.tv
+              </p>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div
+        class="css-7scmt2"
+      />
+      <div
+        class="css-1ohau2b"
+      >
+        <div
+          class="css-8atqhb"
+        >
+          <h2
+            class="chakra-heading css-1gm88u1"
+          >
+            club.notifications
+          </h2>
+          <div
+            class="css-1bu5wfx"
+          >
+            <div
+              class="chakra-spinner css-1y7joxr"
+            >
+              <span
+                class="css-8b45rq"
+              >
+                Loading...
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="css-7scmt2"
+      />
+      <div
+        class="css-1g2dsiu"
+      >
+        <div
+          class="css-1hiajkg"
+        >
+          <div
+            class="css-uvifgi"
+          >
+            <div
+              class="css-f3maqt"
+            >
+              <p
+                class="chakra-text css-nfvbkq"
+              >
+                @
+                chat.assistant
+              </p>
+              <p
+                class="chakra-text css-2kg1if"
+              >
+                chat.hello
+              </p>
+            </div>
+          </div>
+          <p
+            class="chakra-text css-1ythksd"
+          >
+            chat.please_login
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

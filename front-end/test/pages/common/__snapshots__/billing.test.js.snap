@@ -1,0 +1,163 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders BillingPage snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="chakra-container css-1d4uest"
+  >
+    <div
+      class="css-hvj0dp"
+    >
+      <h2
+        class="chakra-heading css-0"
+      >
+        payment.amount_due
+      </h2>
+      <p
+        class="chakra-text css-1n9r2z"
+      >
+        200.000 VND
+      </p>
+    </div>
+    <div
+      class="css-iyq6ji"
+    >
+      <h2
+        class="chakra-heading css-1itv5e3"
+      >
+        payment.payment_method
+      </h2>
+      <div
+        class="chakra-radio-group css-0"
+        role="radiogroup"
+      >
+        <div
+          class="chakra-stack css-1kkt86i"
+        >
+          <label
+            class="chakra-radio css-1nqw95c"
+            data-checked=""
+          >
+            <input
+              checked=""
+              class="chakra-radio__input"
+              id="radio-:r1:"
+              name="radio-:r0:"
+              style="border: 0px; clip: rect(0px, 0px, 0px, 0px); height: 1px; width: 1px; margin: -1px; padding: 0px; overflow: hidden; white-space: nowrap; position: absolute;"
+              type="radio"
+              value="vnpay"
+            />
+            <span
+              aria-hidden="true"
+              class="chakra-radio__control css-ssalds"
+              data-checked=""
+            />
+            <span
+              class="chakra-radio__label css-1y8kf23"
+              data-checked=""
+            >
+              <div
+                class="css-70qvj9"
+              >
+                <img
+                  class="chakra-image css-juogc"
+                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjeDeEU8y0EmqKl5AtUF5loKkWn9rHvI9lKLAuqOyZ0SrFnAk&s"
+                />
+                <p
+                  class="chakra-text css-0"
+                >
+                  payment.vnpay
+                  <br />
+                  <small>
+                    payment.vnpay_description
+                  </small>
+                </p>
+              </div>
+            </span>
+          </label>
+          <label
+            class="chakra-radio css-1nqw95c"
+          >
+            <input
+              class="chakra-radio__input"
+              id="radio-:r2:"
+              name="radio-:r0:"
+              style="border: 0px; clip: rect(0px, 0px, 0px, 0px); height: 1px; width: 1px; margin: -1px; padding: 0px; overflow: hidden; white-space: nowrap; position: absolute;"
+              type="radio"
+              value="zalopay"
+            />
+            <span
+              aria-hidden="true"
+              class="chakra-radio__control css-ssalds"
+            />
+            <span
+              class="chakra-radio__label css-1y8kf23"
+            >
+              <div
+                class="css-70qvj9"
+              >
+                <img
+                  class="chakra-image css-juogc"
+                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTD6astgqkNctUyOO43ZDc011j_wr3_ImEmnVVvIPLmf8_Tw5s&s"
+                />
+                <p
+                  class="chakra-text css-0"
+                >
+                  payment.zalopay
+                  <br />
+                  <small>
+                    payment.zalopay_description
+                  </small>
+                </p>
+              </div>
+            </span>
+          </label>
+          <label
+            class="chakra-radio css-1nqw95c"
+          >
+            <input
+              class="chakra-radio__input"
+              id="radio-:r3:"
+              name="radio-:r0:"
+              style="border: 0px; clip: rect(0px, 0px, 0px, 0px); height: 1px; width: 1px; margin: -1px; padding: 0px; overflow: hidden; white-space: nowrap; position: absolute;"
+              type="radio"
+              value="momo"
+            />
+            <span
+              aria-hidden="true"
+              class="chakra-radio__control css-ssalds"
+            />
+            <span
+              class="chakra-radio__label css-1y8kf23"
+            >
+              <div
+                class="css-70qvj9"
+              >
+                <img
+                  class="chakra-image css-juogc"
+                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdZKHXNJrsnKlR_LYGBNB9Z-2Rm4ZgEpG-LwBXD4ChKyBqKdQs&s"
+                />
+                <p
+                  class="chakra-text css-0"
+                >
+                  payment.momo
+                  <br />
+                  <small>
+                    payment.momo_description
+                  </small>
+                </p>
+              </div>
+            </span>
+          </label>
+        </div>
+      </div>
+      <button
+        class="chakra-button css-elpib"
+        type="button"
+      >
+        payment.pay_now
+      </button>
+    </div>
+  </div>
+</DocumentFragment>
+`;

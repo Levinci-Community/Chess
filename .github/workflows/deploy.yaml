@@ -1,0 +1,133 @@
+name: Deploy to Workon Space
+
+on:
+  push:
+    branches: ["production"]
+
+env:
+  IP_ADDRESS: "103.130.211.150"
+  FE_IMAGE: leetun2k2/chess_frontend:latest
+  BE_IMAGE: leetun2k2/chess_backend:latest
+  STOCKFISH_IMAGE: leetun2k2/stockfish:latest
+  PIKAFISH_IMAGE: leetun2k2/pikafish:latest
+
+jobs:
+  build_and_push_front_end:
+    name: Build and Push Front-End Docker Image
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Build front-end image
+        run: |
+          cd front-end
+          docker build -f .docker/Dockerfile \
+            -t ${{ env.FE_IMAGE }} \
+            --build-arg REACT_APP_API_PROXY=/api \
+            --build-arg REACT_APP_PROXY="" \
+            --build-arg REACT_APP_SOCKET_PROXY="" \
+            --build-arg REACT_APP_OPENAI_KEY=${{secrets.OPENAI_KEY}} \
+            .
+
+      - name: Login to Docker Hub
+        run: docker login --username ${{secrets.DOCKER_LOGIN_USERNAME}} --password ${{secrets.DOCKER_LOGIN_PASSWORD}}
+
+      - name: Push front-end image
+        run: docker push ${{env.FE_IMAGE}}
+
+  build_and_push_back_end:
+    name: Build and Push Back-End Docker Image
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Build new relic base agent
+        run: |
+          cd back-end
+          docker build -f .docker/newrelic.dockerfile -t python_newrelic:latest .
+
+      - name: Build back-end image
+        run: |
+          cd back-end
+          docker build -f .docker/Dockerfile -t ${{env.BE_IMAGE}} .
+
+      - name: Login to Docker Hub
+        run: docker login --username ${{secrets.DOCKER_LOGIN_USERNAME}} --password ${{secrets.DOCKER_LOGIN_PASSWORD}}
+
+      - name: Push back-end image
+        run: docker push ${{env.BE_IMAGE}}
+
+  # build_and_push_stockfish:
+  #   name: Build and Push Stockfish Docker Image
+  #   runs-on: ubuntu-latest
+  #   steps:
+  #     - name: Checkout code
+  #       uses: actions/checkout@v4
+
+  #     - name: Build stockfish image
+  #       run: |
+  #         cd stockfish
+  #         docker build -f .docker/Dockerfile -t ${{env.STOCKFISH_IMAGE}} .
+
+  #     - name: Login to Docker Hub
+  #       run: docker login --username ${{secrets.DOCKER_LOGIN_USERNAME}} --password ${{secrets.DOCKER_LOGIN_PASSWORD}}
+
+  #     - name: Push stockfish image
+  #       run: docker push ${{env.STOCKFISH_IMAGE}}
+
+  # build_and_push_pikafish:
+  #   name: Build and Push Pikafish Docker Image
+  #   runs-on: ubuntu-latest
+  #   steps:
+  #     - name: Checkout code
+  #       uses: actions/checkout@v4
+
+  #     - name: Build pikafish image
+  #       run: |
+  #         cd pikafish
+  #         docker build -f .docker/Dockerfile -t ${{env.PIKAFISH_IMAGE}} .
+
+  #     - name: Login to Docker Hub
+  #       run: docker login --username ${{secrets.DOCKER_LOGIN_USERNAME}} --password ${{secrets.DOCKER_LOGIN_PASSWORD}}
+
+  #     - name: Push pikafish image
+  #       run: docker push ${{env.PIKAFISH_IMAGE}}
+
+  deploy:
+    name: Deploy via SSH
+    runs-on: ubuntu-latest
+    needs: [build_and_push_front_end, build_and_push_back_end] #, build_and_push_stockfish, build_and_push_pikafish]
+    steps:
+      - name: Install expect and ssh-client
+        run: sudo apt-get install -y expect openssh-client
+
+      - name: Run SSH Script
+        run: |
+          expect -c '
+            set timeout 500
+            set host "${{env.IP_ADDRESS}}"
+            set user "${{secrets.SSH_USERNAME}}"
+            set password "${{secrets.SSH_PASSWORD}}"
+
+            spawn ssh -o StrictHostKeyChecking=no -p 10038 $user@$host
+            expect {
+              "assword:" {
+                send "$password\r"
+                exp_continue
+              }
+              "Permission denied" {
+                exit 1
+              }
+              "Welcome" {
+                send "cd project/20110746_20110643\r"
+                send "./cli.sh\r"
+                expect {
+                  "Deploy ute-chess-club project completely" {
+                    interact
+                  }
+                }
+              }
+            }
+          '

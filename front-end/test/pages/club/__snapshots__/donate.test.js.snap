@@ -1,0 +1,132 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders DonatePage snapshot 1`] = `
+<div>
+  <div
+    class="css-1ja7hik"
+  >
+    <div
+      class="css-k008qs"
+    >
+      <img
+        alt="chess1"
+        class="chakra-image css-hdsgkm"
+        src="[object Object]"
+      />
+      <div
+        class="css-17xejub"
+      />
+      <img
+        alt="chess2"
+        class="chakra-image css-1vn57wq"
+        src="[object Object]"
+      />
+      <div
+        class="css-17xejub"
+      />
+      <img
+        alt="chess3"
+        class="chakra-image css-6jwltp"
+        src="[object Object]"
+      />
+      <div
+        class="css-17xejub"
+      />
+      <img
+        alt="chess4"
+        class="chakra-image css-hdsgkm"
+        src="[object Object]"
+      />
+    </div>
+    <div
+      class="css-1pstfjo"
+    >
+      <img
+        alt="chess5"
+        class="chakra-image css-u9uoi6"
+        src="[object Object]"
+      />
+      <div
+        class="css-17xejub"
+      />
+      <h1
+        class="chakra-heading css-1eth8b1"
+      >
+        club.support_ute_chess_club
+      </h1>
+      <div
+        class="css-70qvj9"
+      >
+        <img
+          alt="club.support_ute_chess_club"
+          class="chakra-image css-1p3fvi7"
+          src="undefined/images/donate"
+        />
+        <div
+          class="css-1isemmb"
+        >
+          <p
+            class="chakra-text css-1fhby5u"
+          >
+            club.card_bank
+            : Vietcombank
+          </p>
+          <p
+            class="chakra-text css-1fhby5u"
+          >
+            club.card_number
+            : 022 6868 6868 6868
+          </p>
+          <p
+            class="chakra-text css-1fhby5u"
+          >
+            club.card_name
+            : CLB CỜ SPKT
+          </p>
+        </div>
+      </div>
+      <div
+        class="css-17xejub"
+      />
+      <img
+        alt="chess6"
+        class="chakra-image css-u9uoi6"
+        src="[object Object]"
+      />
+    </div>
+    <div
+      class="css-ltqa49"
+    >
+      <img
+        alt="chess7"
+        class="chakra-image css-1c55xed"
+        src="[object Object]"
+      />
+      <div
+        class="css-17xejub"
+      />
+      <div
+        class="css-1mki2y5"
+      >
+        <p
+          class="chakra-text css-19nm251"
+        >
+          club.your_donate_help_us_providing
+        </p>
+        <p
+          class="chakra-text css-1mwnirl"
+        >
+          club.thank_you
+        </p>
+      </div>
+      <div
+        class="css-17xejub"
+      />
+      <img
+        class="chakra-image css-1067xm8"
+        src="[object Object]"
+      />
+    </div>
+  </div>
+</div>
+`;

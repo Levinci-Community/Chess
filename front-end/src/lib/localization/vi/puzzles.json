@@ -1,0 +1,32 @@
+{
+  "heading": "Quản Lý Câu Đố",
+  "generate": "Tạo câu đố",
+  "fen": "FEN",
+  "moves": "Các nước đi",
+  "puzzle": "Câu đố",
+    "title": "Câu đố cờ vua cơ bản",
+    "description": "Giải thích ngắn gọn về mục tiêu của câu đố",
+    "steps": [
+      {
+        "title": "Phân tích thế cờ",
+        "description": "Xem xét vị trí của các quân cờ, đặc biệt chú ý đến Vua."
+      },
+      {
+        "title": "Xác định ý tưởng chính",
+        "description": "Tìm kiếm chiến thuật hoặc kế hoạch chung có thể giúp bạn giải quyết câu đố."
+      },
+      {
+        "title": "Tính toán các biến thể",
+        "description": "Khi bạn đã có ý tưởng, hãy tính toán các nước đi có thể xảy ra và hậu quả của từng nước đi."
+      },
+      {
+        "title": "Kiểm tra và điều chỉnh",
+        "description": "Sau khi tính toán các biến thể, hãy kiểm tra xem chiến thuật của bạn có hoạt động trong mọi trường hợp hay không."
+      },
+      {
+        "title": "Giải thích nước đi",
+        "description": "Viết ra từng nước đi trong giải pháp của bạn và giải thích lý do đằng sau mỗi nước đi."
+      }
+    ]
+    
+}

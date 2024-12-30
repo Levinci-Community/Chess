@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Components > Tutorial renders a snapshot for Tutorial using renderer 1`] = `
+<div
+  className="css-2rlxtj"
+>
+  <div
+    className="react-joyride"
+  />
+</div>
+`;

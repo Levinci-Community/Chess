@@ -1,0 +1,19 @@
+{
+  "heading": "Quản Lý Người Dùng",
+  "username": "Tên Người Dùng",
+  "email": "Email",
+  "name": "Tên",
+  "status": "Trạng Thái",
+  "verified": "Đã xác thực",
+  "unverified": "Chưa Xác Thực",
+  "locked": "Đã Khóa",
+  "active": "Hoạt Động",
+  "admin_management": "Quản Lý Ban Quản Trị",
+  "new_admin": "Admin",
+  "enter_email": "Nhập Email",
+  "upload_avatar": "Tải ảnh lên",
+  "select_an_image": "Chọn ảnh",
+  "change_password": "Đổi mật khẩu",
+  "old_password": "Mật khẩu cũ",
+  "new_password": "Mật khẩu mới"
+}

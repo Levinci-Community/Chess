@@ -1,0 +1,18 @@
+{
+  "title": "Hướng dẫn Ba",
+  "description": "Ba phút, Ba mạng và Ba gợi ý",
+  "steps": [
+    {
+      "title": "Ba phút",
+      "description": "3 Phút đếm ngược cho đếm khi trò chơi kết thúc."
+    },
+    {
+      "title": "Ba mạng",
+      "description": "Bạn giải sai 3 lần và trò chơi kết thúc."
+    },
+    {
+      "title": "Ba gợi ý",
+      "description": "3 Lần gợi ý đáp án."
+    }
+  ]
+}

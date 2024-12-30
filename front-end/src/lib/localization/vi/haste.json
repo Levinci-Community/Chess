@@ -1,0 +1,18 @@
+{
+  "title": "Hướng dẫn Về đích",
+  "description": "Bạn sẽ giải thế cờ, kết quả sẽ ảnh hưởng đến thời gian của bạn",
+  "steps": [
+    {
+      "title": "Thời gian",
+      "description": "Đếm ngược cho đếm khi trò chơi kết thúc."
+    },
+    {
+      "title": "Đúng liên tiếp",
+      "description": "Giải đúng nhiều câu đố liên tiếp được tăng thời gian."
+    },
+    {
+      "title": "Giải sai",
+      "description": "Giải sai sẽ bị trừ thời gian."
+    }
+  ]
+}

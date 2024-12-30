@@ -1,0 +1,18 @@
+{
+  "title": "Haste Tutorial",
+  "description": "Solve chess puzzles; your performance affects your time.",
+  "steps": [
+    {
+      "title": "Time",
+      "description": "Countdown until the game ends."
+    },
+    {
+      "title": "Consecutive Correct",
+      "description": "Solve multiple puzzles correctly in a row to increase time."
+    },
+    {
+      "title": "Incorrect Solution",
+      "description": "Solving incorrectly will reduce time."
+    }
+  ]
+}

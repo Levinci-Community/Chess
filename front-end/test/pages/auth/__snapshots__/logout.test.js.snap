@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders LogoutPage snapshot 1`] = `
+<div>
+  <div
+    class="css-fdfpf0"
+  >
+    <h2
+      class="chakra-heading css-hvj0dp"
+    >
+      auth.logging_out
+    </h2>
+    <div
+      class="chakra-spinner css-1y7joxr"
+    >
+      <span
+        class="css-8b45rq"
+      >
+        Loading...
+      </span>
+    </div>
+  </div>
+</div>
+`;

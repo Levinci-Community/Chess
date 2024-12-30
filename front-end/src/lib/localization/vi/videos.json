@@ -1,0 +1,13 @@
+{
+  "heading": "Quản Lý Video",
+  "create": "Tạo Video Mới",
+  "update": "Chỉnh Sửa Video",
+  "no": "STT",
+  "title": "Tên",
+  "description": "Mô tả",
+  "image": "Hình ảnh",
+  "content": "Nội dung",
+  "updated_at": "Cập nhật",
+  "video": "Video",
+  "videos": "Danh Sách Video"
+}

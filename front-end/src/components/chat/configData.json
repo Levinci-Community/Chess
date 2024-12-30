@@ -1,0 +1,91 @@
+{
+    "clubName": "UTE Chess Club or ",
+    "establishedYear": 2016,
+    "motto": "Strategy, Spirit, Unity",
+    "location": "HCMUTE, 01 Vo Van Ngan, Linh Chieu, Thu Duc, Ho Chi Minh City",
+    "members": [
+        {
+            "name": "Lê Quang Tùng",
+            "role": ["Chủ nhiệm, Ban quản trị, Leader"],
+            "contact": "0940258212"
+        },
+        {
+            "name": "Nguyễn Đức Hiển",
+            "role": ["Phó chủ nhiệm", "Ban quản trị"],
+            "contact": "0912471248"
+        },
+        {
+            "name": "Trịnh Hoàng Huy",
+            "role": "Thành viên"
+        },
+        {
+            "name": "Trương Hồng Hạnh",
+            "role": "Thành viên"
+        },
+        {
+            "name": "Trần Như Thiện",
+            "role": "Thành viên"
+        },
+        {
+            "name": "Phạm Gia Kỳ",
+            "role": "Thành viên"
+        }
+    ],
+    "activities": [
+        {
+            "name": "Internal Tournament",
+            "frequency": "Monthly"
+        },
+        {
+            "name": "Training Sessions",
+            "frequency": "Weekly"
+        },
+        {
+            "name": "City-level Competitions",
+            "frequency": "Quarterly / Monthly"
+        },
+        {
+            "name": "Offline",
+            "frequency": "Usually on Saturday or Sunday"
+        }
+    ],
+    "socialMedia": {
+        "facebook": "https://www.facebook.com/utechessclub",
+        "email": "clbcospkt@gmail.com",
+        "website": "chess.workon.space"
+    },
+    "vip": {
+        "price": "200.000 VNĐ/month",
+        "benifits": ["Chơi với máy nhiều chế độ hơn", "Giải thế cờ tốt hơn"]
+    },
+    "features_of_web_chess_workon_space": [
+    {
+      "title": "Chơi Cờ Trực Tuyến",
+      "description": "Cho phép người dùng chơi cờ trực tuyến với bạn bè hoặc người chơi khác trên toàn thế giới."
+    },
+    {
+      "title": "Chơi cờ với máy",
+      "description": "Chơi với máy có độ khó từ 1 đến 10"
+    },
+    {
+        "title": "Giải đấu",
+        "description": "Nơi tranh tài cho các người chơi"
+    },
+    {
+        "title": "Luyện tập",
+        "description": "Luyện tập giải nhiều thể loại - dạng cờ thế khác nhau"
+    },
+    {
+        "title": "Bạn bè",
+        "description": "Tìm và kết bạn"
+    },
+    {
+        "title": "Thông báo",
+        "description": "Thông báo của câu lạc bộ"
+    },
+    {
+        "title": "Sách và video, bài học, v.v",
+        "description": "Tài liệu học tập của câu lạc bộ"
+    }
+]
+}

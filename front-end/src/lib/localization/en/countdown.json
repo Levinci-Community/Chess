@@ -1,0 +1,14 @@
+{
+  "title": "Countdown Tutorial",
+  "description": "Solve as many chess puzzles as you can before time runs out.",
+  "steps": [
+    {
+      "title": "Time",
+      "description": "Countdown until the game ends."
+    },
+    {
+      "title": "Solve Puzzles",
+      "description": "Solve as many puzzles as possible to achieve a high score."
+    }
+  ]
+}

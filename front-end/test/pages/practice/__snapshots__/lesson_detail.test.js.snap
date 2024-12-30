@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders LessonDetailPage snapshot 1`] = `
+<div>
+  <div
+    class="chakra-container css-3laa41"
+  >
+    <h1
+      class="chakra-heading css-1itv5e3"
+    >
+      Loading...
+    </h1>
+  </div>
+</div>
+`;

@@ -1,0 +1,26 @@
+{
+  "aboutUs": {
+    "heading": "Về Câu Lạc Bộ Cờ Vua UTE",
+    "content": "Câu Lạc Bộ Cờ Vua UTE là một cộng đồng sôi động của những người yêu thích cờ vua, được tụ họp bởi niềm đam mê chung đối với trò chơi cờ vua. Được thành lập với nhiệm vụ thúc đẩy cờ vua như một môn thể thao và nuôi dưỡng một văn hóa tư duy chiến lược, tinh thần thể thao và tình đồng đội, Câu Lạc Bộ Cờ Vua UTE cung cấp một môi trường chào đón cho các cầu thủ ở mọi trình độ để tham gia, học hỏi và cạnh tranh."
+  },
+  "ourMission": {
+    "heading": "Sứ Mệnh Của Chúng Tôi",
+    "list": {
+      "promoteChess": "Thúc Đẩy Cờ Vua",
+      "developSkills": "Phát Triển Kỹ Năng",
+      "buildCommunity": "Xây Dựng Cộng Đồng",
+      "encourageSportsmanship": "Khuyến Khích Tinh Thần Thể Thao"
+    },
+    "content": {
+      "promoteChess": "Chúng tôi nhằm mục tiêu thúc đẩy cờ vua như một môn thể thao và một cuộc săn tìm trí tuệ, khuyến khích sự tham gia của sinh viên, giảng viên và nhân viên.",
+      "developSkills": "Chúng tôi cung cấp cơ hội cho các thành viên phát triển kỹ năng cờ vua của mình, cho dù họ là người mới bắt đầu muốn học những điều cơ bản hay là người chơi nâng cao muốn hoàn thiện chiến lược của mình.",
+      "buildCommunity": "Chúng tôi tạo dựng một tinh thần cộng đồng trong số những người yêu thích cờ vua, tạo ra một môi trường hỗ trợ và bao gồm, nơi thành viên có thể kết nối, chia sẻ niềm đam mê của họ với cờ vua và tạo ra những mối quan hệ bạn bè bền vững.",
+      "encourageSportsmanship": "Chúng tôi duy trì các giá trị về tinh thần thể thao, công bằng và tôn trọng, cả trên và ngoài bàn cờ vua, truyền đạt cho các thành viên của chúng tôi sự quan trọng của tính chính trực và lịch sự trong chiến thắng và thất bại."
+    }
+  },
+  "whatWeOffer": {
+    "heading": "Chúng Tôi Cung Cấp Gì",
+    "list": ["Họp Hàng Tuần", "Giải Đấu", "Buổi Tập", "Sự Kiện Xã Hội"],
+    "content": "Dù bạn là một người chơi cờ vua có kinh nghiệm hay là ai đó mới bắt đầu khám phá thế giới của cờ vua, Câu Lạc Bộ Cờ Vua UTE chào đón bạn tham gia cùng cộng đồng của chúng tôi. Hãy trở thành một phần của gia đình cờ vua ngày càng phát triển của chúng tôi, mài mòn tư duy của bạn và trải nghiệm niềm vui của cờ vua cùng chúng tôi! Để biết thêm thông tin về Câu Lạc Bộ Cờ Vua UTE và cách tham gia, vui lòng liên hệ với chúng tôi qua email clbcospkt@gmail.com hoặc truy cập trang web của chúng tôi www.chess.workon.space. Theo dõi chúng tôi trên mạng xã hội để cập nhật thông tin, sự kiện và nội dung liên quan đến cờ vua. Hãy tham gia Câu Lạc Bộ Cờ Vua UTE ngay hôm nay và bắt đầu một hành trình hấp dẫn về chiến lược, cạnh tranh và tình bạn!"
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "scripts": {
+    "dev": "./bin/webpack-dev-server",
+    "production": "./bin/webpack",
+    "tsc": "./node_modules/.bin/tsc --noEmit",
+    "eye:load": "eye l eye.rb",
+    "eye:info": "eye i",
+    "blitz:game_modes:fetch": "rails runner 'GameModePuzzleImporter.fetch_puzzles_json'",
+    "blitz:game_modes:import": "rails runner 'GameModePuzzleImporter.import_puzzles'",
+    "blitz:game_modes:check": "rails runner 'GameModePuzzleImporter.check_db_puzzles'",
+    "lichess:puzzles:fetch": "rails runner 'LichessV1PuzzleImporter.fetch_puzzles_json'",
+    "lichess:puzzles:import": "rails runner 'LichessV1PuzzleImporter.import_puzzles_json'",
+    "lichess:puzzles:check": "rails runner 'LichessV1PuzzleImporter.check_db_puzzles'",
+    "lichess:puzzles:v2:fetch": "rails runner 'LichessV2PuzzleImporter.new.fetch_csv'",
+    "lichess:puzzles:v2:import": "rails runner 'LichessV2PuzzleImporter.new.import_from_csv'"
+  },
+  "dependencies": {
+    "@bugsnag/js": "^7.5.4",
+    "@rails/webpacker": "^5.2.1",
+    "@types/backbone": "^1.4.5",
+    "@types/chess.js": "^0.10.1",
+    "@vue/compiler-sfc": "^3.2.26",
+    "axios": "^0.24.0",
+    "backbone": "^1.4.0",
+    "backbone.native": "^1.0.0",
+    "chess.js": "^0.11.0",
+    "chessground": "https://github.com/linrock/chessground.git#blitz-tactics",
+    "fastclick": "^1.0.6",
+    "mithril": "^1.1.6",
+    "mousetrap": "^1.6.2",
+    "postcss-cssnext": "^3.1.0",
+    "pug": "^3.0.2",
+    "pug-plain-loader": "^1.1.0",
+    "simple-color-picker": "^0.1.2",
+    "store": "^2.0.12",
+    "tinycolor2": "^1.4.2",
+    "ts-loader": "^8.0.12",
+    "typescript": "^4.5",
+    "underscore": "^1.12.0",
+    "vue": "^3.2.26",
+    "vue-loader": "^16.1.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.10",
+    "@babel/plugin-proposal-class-properties": "^7.12.1",
+    "@babel/preset-env": "^7.12.11",
+    "@babel/preset-typescript": "^7.12.7",
+    "caniuse-lite": "^1.0.30001168",
+    "webpack": "^4.46",
+    "webpack-dev-server": "^3.11.3"
+  }
+}

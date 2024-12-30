@@ -1,0 +1,133 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Components > VipBannerSmall renders a snapshot for VipBannerSmall using renderer 1`] = `
+<div
+  className="chakra-card css-1t3lwag"
+>
+  <h2
+    className="chakra-heading css-so00iq"
+  >
+    VIP Title
+  </h2>
+  <h2
+    className="chakra-heading css-gcwp75"
+  >
+    VIP
+  </h2>
+  <p
+    className="chakra-text css-6moqj9"
+  >
+    VIP Description
+  </p>
+  <div
+    className="css-prcq40"
+  >
+    <p
+      className="chakra-text css-9c40gh"
+    >
+      200.000
+    </p>
+    <p
+      className="chakra-text css-p8ws4k"
+    >
+      vnđ / 
+      month
+    </p>
+  </div>
+  <ul
+    className="css-8yrq6j"
+    role="list"
+  >
+    <li
+      className="css-0"
+    >
+      <svg
+        className="chakra-icon chakra-icon css-16alosh"
+        focusable={false}
+        role="presentation"
+        viewBox="0 0 14 14"
+      >
+        <g
+          fill="currentColor"
+        >
+          <polygon
+            points="5.5 11.9993304 14 3.49933039 12.5 2 5.5 8.99933039 1.5 4.9968652 0 6.49933039"
+          />
+        </g>
+      </svg>
+      <p
+        className="chakra-text css-1tyv28u"
+      >
+        Better Puzzle
+      </p>
+      <p
+        className="chakra-text css-h62wxe"
+      >
+        Better Puzzle Info
+      </p>
+    </li>
+    <li
+      className="css-0"
+    >
+      <svg
+        className="chakra-icon chakra-icon css-16alosh"
+        focusable={false}
+        role="presentation"
+        viewBox="0 0 14 14"
+      >
+        <g
+          fill="currentColor"
+        >
+          <polygon
+            points="5.5 11.9993304 14 3.49933039 12.5 2 5.5 8.99933039 1.5 4.9968652 0 6.49933039"
+          />
+        </g>
+      </svg>
+      <p
+        className="chakra-text css-1tyv28u"
+      >
+        Powerful AI
+      </p>
+      <p
+        className="chakra-text css-h62wxe"
+      >
+        Powerful AI Info
+      </p>
+    </li>
+    <li
+      className="css-0"
+    >
+      <svg
+        className="chakra-icon chakra-icon css-16alosh"
+        focusable={false}
+        role="presentation"
+        viewBox="0 0 14 14"
+      >
+        <g
+          fill="currentColor"
+        >
+          <polygon
+            points="5.5 11.9993304 14 3.49933039 12.5 2 5.5 8.99933039 1.5 4.9968652 0 6.49933039"
+          />
+        </g>
+      </svg>
+      <p
+        className="chakra-text css-1tyv28u"
+      >
+        Special Tag
+      </p>
+      <p
+        className="chakra-text css-h62wxe"
+      >
+        Special Tag Info
+      </p>
+    </li>
+    <div
+      className="css-z07a8f"
+    />
+    <div>
+      UpdateVipNow Component
+    </div>
+  </ul>
+</div>
+`;

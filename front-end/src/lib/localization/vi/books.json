@@ -1,0 +1,13 @@
+{
+  "heading": "Quản Lý Sách",
+  "create": "Tạo Sách Mới",
+  "update": "Chỉnh Sửa Sách",
+  "no": "STT",
+  "title": "Tên",
+  "description": "Mô tả",
+  "image": "Hình ảnh",
+  "content": "Nội dung",
+  "updated_at": "Cập nhật",
+  "books": "Sách",
+  "book": "Sách"
+}

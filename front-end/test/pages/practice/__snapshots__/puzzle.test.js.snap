@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders PuzzlePage snapshot 1`] = `
+<div>
+  <div
+    class="chakra-container css-1nyhgc2"
+  >
+    <h2
+      class="chakra-heading css-bn3r0t"
+    >
+      puzzles.puzzle
+    </h2>
+    <div
+      class="css-k008qs"
+    >
+      <div
+        class="css-1q77jyp"
+      >
+        <div
+          class="css-9zdb0q"
+        >
+          <div
+            class="chakra-aspect-ratio css-1ghdmhg"
+          >
+            <iframe
+              allowfullscreen=""
+              id="chess-puzzle"
+              src="https://livetactics.chessbase.com"
+              title="Chess Tactics"
+            />
+          </div>
+          <div
+            class="css-1dsnzft"
+          />
+        </div>
+      </div>
+      <div
+        class="css-18467a"
+      />
+    </div>
+  </div>
+</div>
+`;

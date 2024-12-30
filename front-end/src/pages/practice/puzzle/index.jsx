@@ -1,0 +1,45 @@
+import { AspectRatio, Box, Container, Flex, Spacer } from "@chakra-ui/react";
+import React, { Fragment } from "react";
+import LeftNav from "../../../components/nav/leftNav";
+import ToturialBox from "../../../components/toturial/toturialBox";
+import UpdateVipNow from "../../../components/vip/updateVipNow";
+
+export default function PuzzlePage() {
+  return (
+    <Fragment>
+      <Container maxW="container.2xl" py={4}>
+        <Flex direction={{ base: "column", md: "row" }}>
+          <Box
+            w={{ base: "0%", md: "24%" }}
+            display={{ base: "none", md: "block" }}
+          >
+            <LeftNav />
+          </Box>
+
+          <Spacer />
+
+          <Box w={{ base: "100%", md: "48%" }} mb={{ base: 8, md: 0 }}>
+            <AspectRatio maxW={600} ratio={1}>
+              <Box position="relative" width="100%" height="100%">
+                <iframe
+                  id="chess-puzzle"
+                  src="https://livetactics.chessbase.com"
+                  title="Chess Tactics"
+                  allowFullScreen
+                  style={{ width: "100%", height: "100%" }}
+                />
+              </Box>
+            </AspectRatio>
+          </Box>
+
+          <Spacer display={{ base: "none", md: "block" }} />
+
+          <Box w={{ base: "100%", md: "24%" }}>
+            <UpdateVipNow />
+            <ToturialBox name={"puzzles"} />
+          </Box>
+        </Flex>
+      </Container>
+    </Fragment>
+  );
+}

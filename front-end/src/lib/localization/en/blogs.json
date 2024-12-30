@@ -1,0 +1,22 @@
+{
+  "heading": "Blogs Management",
+  "create": "Create New Blog",
+  "update": "Edit Blog",
+  "no": "No",
+  "title": "Title",
+  "description": "Description",
+  "image": "Image",
+  "content": "Content",
+  "updated_at": "Updated At",
+  "blogs": "Blogs",
+  "blog": "Blog",
+  "amount_due": "Amount Due",
+  "payment_method": "Payment Method",
+  "vnpay": "VNPAY",
+  "vnpay_description": "Pay with ATM/Visa/Master/JCB/QR via VNPAY",
+  "zalopay": "ZaloPay",
+  "zalopay_description": "Pay with ATM via ZaloPay",
+  "momo": "MoMo",
+  "momo_description": "Pay with MoMo Wallet",
+  "pay_now": "Pay Now"
+}

@@ -1,0 +1,15 @@
+{
+  "heading": "Friends",
+  "friends_list": "Friends List",
+  "friends_request": "Friend Request",
+  "find_friends": "Find Friends",
+  "accept_success": "Accept Success",
+  "find_username_email_name": "Find Username, Email, Name",
+  "unfriend": "Unfriend",
+  "no_users": "No Users",
+  "reject_success": "Reject Success",
+  "accept": "Accept",
+  "reject": "Reject",
+  "request_success": "Request Success",
+  "add_friends_request": "Add Friend"
+}

@@ -1,0 +1,18 @@
+{
+  "title": "Hướng dẫn Vô cực",
+  "description": "Giải tất cả câu đố đã được chúng tôi chọn lọc",
+  "steps": [
+    {
+      "title": "Thời gian",
+      "description": "Không áp dụng thời gian."
+    },
+    {
+      "title": "Thế cờ",
+      "description": "Có thể chọn độ khó theo nhu cầu của bạn."
+    },
+    {
+      "title": "Gợi ý",
+      "description": "Nếu không tìm ra lời giải, bạn hãy chọn gợi ý để xem đáp án."
+    }
+  ]
+}

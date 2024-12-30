@@ -1,0 +1,14 @@
+{
+  "title": "Hướng dẫn Siêu tốc",
+  "description": "Giải câu đố và tính thời gian hoàn thành",
+  "steps": [
+    {
+      "title": "Thời gian",
+      "description": "Thời gian được tính từ khi bắt đầu đến khi bạn hoàn thành tất cả thế cờ."
+    },
+    {
+      "title": "Thế cờ",
+      "description": "Độ khó ngẫu nhiên, giải thật nhanh để đạt kỉ lục tốt nhất."
+    }
+  ]
+}

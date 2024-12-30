@@ -1,0 +1,20 @@
+{
+  "heading": "Tournaments Management",
+  "create": "Create New Tournament",
+  "update": "Edit Tournament",
+  "name": "Name",
+  "description": "Description",
+  "tournaments": "Tournaments",
+  "tournament": "Tournament",
+  "ranking": "Ranking",
+  "leave": "Leave",
+  "join": "Join",
+  "username": "Username",
+  "point": "Point",
+  "your_games": "Your Games",
+  "scoreboard": "Score board",
+  "rating":"Rating",
+  "join_success": "Join Success",
+  "leave_success":"Leave Success",
+  "back_to_tournament": "Back to Tournament"
+}

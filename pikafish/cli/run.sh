@@ -1,0 +1,1 @@
+docker run -p 5555:5555 -d  pikafish

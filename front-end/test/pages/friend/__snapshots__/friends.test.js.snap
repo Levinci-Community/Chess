@@ -1,0 +1,202 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders FriendsPage snapshot 1`] = `
+<div>
+  <div
+    class="chakra-container css-3laa41"
+  >
+    <h2
+      class="chakra-heading css-zx6l2c"
+    >
+      friends.heading
+    </h2>
+    <div
+      class="chakra-tabs css-79elbk"
+    >
+      <div
+        aria-orientation="horizontal"
+        class="chakra-tabs__tablist css-k008qs"
+        role="tablist"
+      >
+        <button
+          aria-controls="tabs-:r0:--tabpanel-0"
+          aria-disabled="false"
+          aria-selected="true"
+          class="chakra-tabs__tab css-5wl5ud"
+          data-index="0"
+          id="tabs-:r0:--tab-0"
+          role="tab"
+          tabindex="0"
+          type="button"
+        >
+          friends.friends_list
+        </button>
+        <button
+          aria-controls="tabs-:r0:--tabpanel-1"
+          aria-disabled="false"
+          aria-selected="false"
+          class="chakra-tabs__tab css-5wl5ud"
+          data-index="1"
+          id="tabs-:r0:--tab-1"
+          role="tab"
+          tabindex="-1"
+          type="button"
+        >
+          friends.friends_request
+        </button>
+        <button
+          aria-controls="tabs-:r0:--tabpanel-2"
+          aria-disabled="false"
+          aria-selected="false"
+          class="chakra-tabs__tab css-5wl5ud"
+          data-index="2"
+          id="tabs-:r0:--tab-2"
+          role="tab"
+          tabindex="-1"
+          type="button"
+        >
+          friends.find_friends
+        </button>
+      </div>
+      <div
+        class="chakra-tabs__tab-panels css-2jauji"
+      >
+        <div
+          aria-labelledby="tabs-:r0:--tab-0"
+          class="chakra-tabs__tab-panel css-sjt5nk"
+          id="tabs-:r0:--tabpanel-0"
+          role="tabpanel"
+          tabindex="0"
+        >
+          <div
+            class="css-0"
+          >
+            <div
+              class="css-13e5yyr"
+            >
+              <input
+                class="chakra-input css-1efqbn9"
+                placeholder="friends.find_username_email_name"
+              />
+              <button
+                class="chakra-button css-1t6whxw"
+                type="button"
+              >
+                <svg
+                  class="chakra-icon css-onkibi"
+                  focusable="false"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M23.384,21.619,16.855,15.09a9.284,9.284,0,1,0-1.768,1.768l6.529,6.529a1.266,1.266,0,0,0,1.768,0A1.251,1.251,0,0,0,23.384,21.619ZM2.75,9.5a6.75,6.75,0,1,1,6.75,6.75A6.758,6.758,0,0,1,2.75,9.5Z"
+                    fill="currentColor"
+                  />
+                </svg>
+              </button>
+            </div>
+            <div
+              class="css-k008qs"
+            >
+              <p
+                class="chakra-text css-0"
+              >
+                friends.no_users
+              </p>
+            </div>
+          </div>
+        </div>
+        <div
+          aria-labelledby="tabs-:r0:--tab-1"
+          class="chakra-tabs__tab-panel css-sjt5nk"
+          hidden=""
+          id="tabs-:r0:--tabpanel-1"
+          role="tabpanel"
+          tabindex="0"
+        >
+          <div
+            class="css-0"
+          >
+            <div
+              class="css-13e5yyr"
+            >
+              <input
+                class="chakra-input css-1efqbn9"
+                placeholder="friends.find_username_email_name"
+              />
+              <button
+                class="chakra-button css-1t6whxw"
+                type="button"
+              >
+                <svg
+                  class="chakra-icon css-onkibi"
+                  focusable="false"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M23.384,21.619,16.855,15.09a9.284,9.284,0,1,0-1.768,1.768l6.529,6.529a1.266,1.266,0,0,0,1.768,0A1.251,1.251,0,0,0,23.384,21.619ZM2.75,9.5a6.75,6.75,0,1,1,6.75,6.75A6.758,6.758,0,0,1,2.75,9.5Z"
+                    fill="currentColor"
+                  />
+                </svg>
+              </button>
+            </div>
+            <div
+              class="css-k008qs"
+            >
+              <p
+                class="chakra-text css-0"
+              >
+                friends.no_users
+              </p>
+            </div>
+          </div>
+        </div>
+        <div
+          aria-labelledby="tabs-:r0:--tab-2"
+          class="chakra-tabs__tab-panel css-sjt5nk"
+          hidden=""
+          id="tabs-:r0:--tabpanel-2"
+          role="tabpanel"
+          tabindex="0"
+        >
+          <div
+            class="css-0"
+          >
+            <div
+              class="css-13e5yyr"
+            >
+              <input
+                class="chakra-input css-1efqbn9"
+                placeholder="friends.find_username_email_name"
+              />
+              <button
+                class="chakra-button css-1t6whxw"
+                type="button"
+              >
+                <svg
+                  class="chakra-icon css-onkibi"
+                  focusable="false"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M23.384,21.619,16.855,15.09a9.284,9.284,0,1,0-1.768,1.768l6.529,6.529a1.266,1.266,0,0,0,1.768,0A1.251,1.251,0,0,0,23.384,21.619ZM2.75,9.5a6.75,6.75,0,1,1,6.75,6.75A6.758,6.758,0,0,1,2.75,9.5Z"
+                    fill="currentColor"
+                  />
+                </svg>
+              </button>
+            </div>
+            <div
+              class="css-k008qs"
+            >
+              <p
+                class="chakra-text css-0"
+              >
+                friends.no_users
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

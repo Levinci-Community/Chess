@@ -1,0 +1,653 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Components > Header renders a snapshot for Header using renderer 1`] = `
+<div
+  className="css-1hmgr80"
+>
+  <div
+    className="css-70qvj9"
+  >
+    <div
+      className="chakra-stack css-1a48iy7"
+      onClick={[Function]}
+    >
+      <img
+        alt="UTE CHESS CLUB"
+        className="chakra-image css-l5at91"
+        src="/logo.png"
+      />
+      <p
+        className="chakra-text css-1hgmzub"
+      >
+        UTE CHESS CLUB
+      </p>
+    </div>
+    <div
+      className="css-17xejub"
+    />
+    <button
+      aria-controls="menu-list-:r2:"
+      aria-expanded={false}
+      aria-haspopup="menu"
+      className="chakra-button chakra-menu__menu-button menu-club css-1eqwwsj"
+      id="menu-button-:r2:"
+      onClick={[Function]}
+      onKeyDown={[Function]}
+      type="button"
+    >
+      <span
+        className="css-xl71ch"
+      >
+        header.club
+      </span>
+      <span
+        className="chakra-button__icon css-1hzyiq5"
+      >
+        <svg
+          aria-hidden={true}
+          className="chakra-icon css-onkibi"
+          focusable={false}
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z"
+            fill="currentColor"
+          />
+        </svg>
+      </span>
+    </button>
+    <div
+      className="css-0"
+      style={
+        {
+          "inset": "0 auto auto 0",
+          "minWidth": "max-content",
+          "position": "absolute",
+          "visibility": "hidden",
+        }
+      }
+    >
+      <div
+        aria-orientation="vertical"
+        className="chakra-menu__menu-list css-1fx04oe"
+        id="menu-list-:r2:"
+        onKeyDown={[Function]}
+        role="menu"
+        style={
+          {
+            "opacity": 0,
+            "transform": "scale(0.8) translateZ(0)",
+            "transformOrigin": "var(--popper-transform-origin)",
+            "visibility": "hidden",
+          }
+        }
+        tabIndex={-1}
+      >
+        <button
+          className="chakra-menu__menuitem css-1k756t9"
+          id="menu-list-:r2:-menuitem-:r3:"
+          onClick={[Function]}
+          onFocus={[Function]}
+          onMouseEnter={[Function]}
+          onMouseLeave={[Function]}
+          onMouseMove={[Function]}
+          role="menuitem"
+          tabIndex={0}
+          type="button"
+        >
+          header.home
+        </button>
+        <button
+          className="chakra-menu__menuitem css-1k756t9"
+          id="menu-list-:r2:-menuitem-:r4:"
+          onClick={[Function]}
+          onFocus={[Function]}
+          onMouseEnter={[Function]}
+          onMouseLeave={[Function]}
+          onMouseMove={[Function]}
+          role="menuitem"
+          tabIndex={0}
+          type="button"
+        >
+          header.blogs
+        </button>
+        <button
+          className="chakra-menu__menuitem css-1k756t9"
+          id="menu-list-:r2:-menuitem-:r5:"
+          onClick={[Function]}
+          onFocus={[Function]}
+          onMouseEnter={[Function]}
+          onMouseLeave={[Function]}
+          onMouseMove={[Function]}
+          role="menuitem"
+          tabIndex={0}
+          type="button"
+        >
+          header.achievements
+        </button>
+        <button
+          className="chakra-menu__menuitem css-1k756t9"
+          id="menu-list-:r2:-menuitem-:r6:"
+          onClick={[Function]}
+          onFocus={[Function]}
+          onMouseEnter={[Function]}
+          onMouseLeave={[Function]}
+          onMouseMove={[Function]}
+          role="menuitem"
+          tabIndex={0}
+          type="button"
+        >
+          header.donate
+        </button>
+        <button
+          className="chakra-menu__menuitem css-1k756t9"
+          id="menu-list-:r2:-menuitem-:r7:"
+          onClick={[Function]}
+          onFocus={[Function]}
+          onMouseEnter={[Function]}
+          onMouseLeave={[Function]}
+          onMouseMove={[Function]}
+          role="menuitem"
+          tabIndex={0}
+          type="button"
+        >
+          header.about
+        </button>
+      </div>
+    </div>
+    <button
+      aria-controls="menu-list-:r9:"
+      aria-expanded={false}
+      aria-haspopup="menu"
+      className="chakra-button chakra-menu__menu-button menu-play css-1eqwwsj"
+      id="menu-button-:r9:"
+      onClick={[Function]}
+      onKeyDown={[Function]}
+      type="button"
+    >
+      <span
+        className="css-xl71ch"
+      >
+        header.play
+      </span>
+      <span
+        className="chakra-button__icon css-1hzyiq5"
+      >
+        <svg
+          aria-hidden={true}
+          className="chakra-icon css-onkibi"
+          focusable={false}
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z"
+            fill="currentColor"
+          />
+        </svg>
+      </span>
+    </button>
+    <div
+      className="css-0"
+      style={
+        {
+          "inset": "0 auto auto 0",
+          "minWidth": "max-content",
+          "position": "absolute",
+          "visibility": "hidden",
+        }
+      }
+    >
+      <div
+        aria-orientation="vertical"
+        className="chakra-menu__menu-list css-1fx04oe"
+        id="menu-list-:r9:"
+        onKeyDown={[Function]}
+        role="menu"
+        style={
+          {
+            "opacity": 0,
+            "transform": "scale(0.8) translateZ(0)",
+            "transformOrigin": "var(--popper-transform-origin)",
+            "visibility": "hidden",
+          }
+        }
+        tabIndex={-1}
+      >
+        <button
+          className="chakra-menu__menuitem css-1k756t9"
+          id="menu-list-:r9:-menuitem-:ra:"
+          onClick={[Function]}
+          onFocus={[Function]}
+          onMouseEnter={[Function]}
+          onMouseLeave={[Function]}
+          onMouseMove={[Function]}
+          role="menuitem"
+          tabIndex={0}
+          type="button"
+        >
+          header.lobby
+        </button>
+        <button
+          className="chakra-menu__menuitem css-1k756t9"
+          id="menu-list-:r9:-menuitem-:rb:"
+          onClick={[Function]}
+          onFocus={[Function]}
+          onMouseEnter={[Function]}
+          onMouseLeave={[Function]}
+          onMouseMove={[Function]}
+          role="menuitem"
+          tabIndex={0}
+          type="button"
+        >
+          header.playWithOptions
+        </button>
+        <button
+          className="chakra-menu__menuitem css-1k756t9"
+          id="menu-list-:r9:-menuitem-:rc:"
+          onClick={[Function]}
+          onFocus={[Function]}
+          onMouseEnter={[Function]}
+          onMouseLeave={[Function]}
+          onMouseMove={[Function]}
+          role="menuitem"
+          tabIndex={0}
+          type="button"
+        >
+          header.tournaments
+        </button>
+      </div>
+    </div>
+    <button
+      aria-controls="menu-list-:re:"
+      aria-expanded={false}
+      aria-haspopup="menu"
+      className="chakra-button chakra-menu__menu-button menu-practice css-1eqwwsj"
+      id="menu-button-:re:"
+      onClick={[Function]}
+      onKeyDown={[Function]}
+      type="button"
+    >
+      <span
+        className="css-xl71ch"
+      >
+        header.practice
+      </span>
+      <span
+        className="chakra-button__icon css-1hzyiq5"
+      >
+        <svg
+          aria-hidden={true}
+          className="chakra-icon css-onkibi"
+          focusable={false}
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z"
+            fill="currentColor"
+          />
+        </svg>
+      </span>
+    </button>
+    <div
+      className="css-0"
+      style={
+        {
+          "inset": "0 auto auto 0",
+          "minWidth": "max-content",
+          "position": "absolute",
+          "visibility": "hidden",
+        }
+      }
+    >
+      <div
+        aria-orientation="vertical"
+        className="chakra-menu__menu-list css-1fx04oe"
+        id="menu-list-:re:"
+        onKeyDown={[Function]}
+        role="menu"
+        style={
+          {
+            "opacity": 0,
+            "transform": "scale(0.8) translateZ(0)",
+            "transformOrigin": "var(--popper-transform-origin)",
+            "visibility": "hidden",
+          }
+        }
+        tabIndex={-1}
+      >
+        <button
+          className="chakra-menu__menuitem css-1k756t9"
+          id="menu-list-:re:-menuitem-:rf:"
+          onClick={[Function]}
+          onFocus={[Function]}
+          onMouseEnter={[Function]}
+          onMouseLeave={[Function]}
+          onMouseMove={[Function]}
+          role="menuitem"
+          tabIndex={0}
+          type="button"
+        >
+          header.puzzles
+        </button>
+        <button
+          className="chakra-menu__menuitem css-1k756t9"
+          id="menu-list-:re:-menuitem-:rg:"
+          onClick={[Function]}
+          onFocus={[Function]}
+          onMouseEnter={[Function]}
+          onMouseLeave={[Function]}
+          onMouseMove={[Function]}
+          role="menuitem"
+          tabIndex={0}
+          type="button"
+        >
+          header.chessle
+        </button>
+        <button
+          className="chakra-menu__menuitem css-1k756t9"
+          id="menu-list-:re:-menuitem-:rh:"
+          onClick={[Function]}
+          onFocus={[Function]}
+          onMouseEnter={[Function]}
+          onMouseLeave={[Function]}
+          onMouseMove={[Function]}
+          role="menuitem"
+          tabIndex={0}
+          type="button"
+        >
+          header.videos
+        </button>
+        <button
+          className="chakra-menu__menuitem css-1k756t9"
+          id="menu-list-:re:-menuitem-:ri:"
+          onClick={[Function]}
+          onFocus={[Function]}
+          onMouseEnter={[Function]}
+          onMouseLeave={[Function]}
+          onMouseMove={[Function]}
+          role="menuitem"
+          tabIndex={0}
+          type="button"
+        >
+          header.books
+        </button>
+      </div>
+    </div>
+    <button
+      aria-controls="menu-list-:rk:"
+      aria-expanded={false}
+      aria-haspopup="menu"
+      className="chakra-button chakra-menu__menu-button menu-tv css-1eqwwsj"
+      id="menu-button-:rk:"
+      onClick={[Function]}
+      onKeyDown={[Function]}
+      type="button"
+    >
+      <span
+        className="css-xl71ch"
+      >
+        header.tv
+      </span>
+    </button>
+    <button
+      aria-controls="menu-list-:rm:"
+      aria-expanded={false}
+      aria-haspopup="menu"
+      className="chakra-button chakra-menu__menu-button menu-vip css-1eqwwsj"
+      id="menu-button-:rm:"
+      onClick={[Function]}
+      onKeyDown={[Function]}
+      type="button"
+    >
+      <span
+        className="css-xl71ch"
+      >
+        header.vip
+      </span>
+      <span
+        className="chakra-button__icon css-1hzyiq5"
+      >
+        <svg
+          aria-hidden={true}
+          className="chakra-icon css-onkibi"
+          focusable={false}
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z"
+            fill="currentColor"
+          />
+        </svg>
+      </span>
+    </button>
+    <div
+      className="css-0"
+      style={
+        {
+          "inset": "0 auto auto 0",
+          "minWidth": "max-content",
+          "position": "absolute",
+          "visibility": "hidden",
+        }
+      }
+    >
+      <div
+        aria-orientation="vertical"
+        className="chakra-menu__menu-list css-1fx04oe"
+        id="menu-list-:rm:"
+        onKeyDown={[Function]}
+        role="menu"
+        style={
+          {
+            "opacity": 0,
+            "transform": "scale(0.8) translateZ(0)",
+            "transformOrigin": "var(--popper-transform-origin)",
+            "visibility": "hidden",
+          }
+        }
+        tabIndex={-1}
+      >
+        <button
+          className="chakra-menu__menuitem css-1k756t9"
+          id="menu-list-:rm:-menuitem-:rn:"
+          onClick={[Function]}
+          onFocus={[Function]}
+          onMouseEnter={[Function]}
+          onMouseLeave={[Function]}
+          onMouseMove={[Function]}
+          role="menuitem"
+          tabIndex={0}
+          type="button"
+        >
+          header.upgrade_vip
+        </button>
+        <button
+          className="chakra-menu__menuitem css-1k756t9"
+          id="menu-list-:rm:-menuitem-:ro:"
+          onClick={[Function]}
+          onFocus={[Function]}
+          onMouseEnter={[Function]}
+          onMouseLeave={[Function]}
+          onMouseMove={[Function]}
+          role="menuitem"
+          tabIndex={0}
+          type="button"
+        >
+          header.count-down
+        </button>
+        <button
+          className="chakra-menu__menuitem css-1k756t9"
+          id="menu-list-:rm:-menuitem-:rp:"
+          onClick={[Function]}
+          onFocus={[Function]}
+          onMouseEnter={[Function]}
+          onMouseLeave={[Function]}
+          onMouseMove={[Function]}
+          role="menuitem"
+          tabIndex={0}
+          type="button"
+        >
+          header.haste
+        </button>
+        <button
+          className="chakra-menu__menuitem css-1k756t9"
+          id="menu-list-:rm:-menuitem-:rq:"
+          onClick={[Function]}
+          onFocus={[Function]}
+          onMouseEnter={[Function]}
+          onMouseLeave={[Function]}
+          onMouseMove={[Function]}
+          role="menuitem"
+          tabIndex={0}
+          type="button"
+        >
+          header.infinity
+        </button>
+        <button
+          className="chakra-menu__menuitem css-1k756t9"
+          id="menu-list-:rm:-menuitem-:rr:"
+          onClick={[Function]}
+          onFocus={[Function]}
+          onMouseEnter={[Function]}
+          onMouseLeave={[Function]}
+          onMouseMove={[Function]}
+          role="menuitem"
+          tabIndex={0}
+          type="button"
+        >
+          header.speed-run
+        </button>
+        <button
+          className="chakra-menu__menuitem css-1k756t9"
+          id="menu-list-:rm:-menuitem-:rs:"
+          onClick={[Function]}
+          onFocus={[Function]}
+          onMouseEnter={[Function]}
+          onMouseLeave={[Function]}
+          onMouseMove={[Function]}
+          role="menuitem"
+          tabIndex={0}
+          type="button"
+        >
+          header.three
+        </button>
+      </div>
+    </div>
+    <div
+      className="css-17xejub"
+    />
+    <button
+      className="chakra-button css-1vu5ea3"
+      onClick={[Function]}
+      type="button"
+    >
+      header.login
+    </button>
+    <button
+      className="chakra-button css-xt9q3z"
+      onClick={[Function]}
+      type="button"
+    >
+      header.register
+    </button>
+    <div
+      className="css-dsyim5"
+    >
+      <button
+        className="chakra-button css-rwvt8m"
+        onClick={[Function]}
+        title="menu"
+        type="button"
+      >
+        <svg
+          fill="currentColor"
+          height={36}
+          stroke="currentColor"
+          strokeWidth="0"
+          style={
+            {
+              "color": undefined,
+            }
+          }
+          viewBox="0 0 512 512"
+          width={36}
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M80 368H16a16 16 0 0 0-16 16v64a16 16 0 0 0 16 16h64a16 16 0 0 0 16-16v-64a16 16 0 0 0-16-16zm0-320H16A16 16 0 0 0 0 64v64a16 16 0 0 0 16 16h64a16 16 0 0 0 16-16V64a16 16 0 0 0-16-16zm0 160H16a16 16 0 0 0-16 16v64a16 16 0 0 0 16 16h64a16 16 0 0 0 16-16v-64a16 16 0 0 0-16-16zm416 176H176a16 16 0 0 0-16 16v32a16 16 0 0 0 16 16h320a16 16 0 0 0 16-16v-32a16 16 0 0 0-16-16zm0-320H176a16 16 0 0 0-16 16v32a16 16 0 0 0 16 16h320a16 16 0 0 0 16-16V80a16 16 0 0 0-16-16zm0 160H176a16 16 0 0 0-16 16v32a16 16 0 0 0 16 16h320a16 16 0 0 0 16-16v-32a16 16 0 0 0-16-16z"
+          />
+        </svg>
+      </button>
+      <div
+        data={
+          [
+            {
+              "id": 1,
+              "link": "/",
+              "title": "Home",
+            },
+            {
+              "id": 2,
+              "link": "/blogs",
+              "title": "Blogs",
+            },
+            {
+              "id": 3,
+              "link": "/achievements",
+              "title": "Achievement",
+            },
+            {
+              "id": 4,
+              "link": "/new-game",
+              "title": "Play with options",
+            },
+            {
+              "id": 7,
+              "link": "/tournaments",
+              "title": "Tournaments",
+            },
+            {
+              "id": 8,
+              "link": "/videos",
+              "title": "Videos",
+            },
+            {
+              "id": 9,
+              "link": "/books",
+              "title": "Books",
+            },
+            {
+              "id": 10,
+              "link": "/tv",
+              "title": "TV",
+            },
+            {
+              "id": 11,
+              "link": "/profile",
+              "title": "Profile",
+            },
+            {
+              "id": 12,
+              "link": "/settings",
+              "title": "Settings",
+            },
+            {
+              "id": 13,
+              "link": "/logout",
+              "title": "Log out",
+            },
+            {
+              "id": 14,
+              "link": "/lessons",
+              "title": "Lessons",
+            },
+          ]
+        }
+        data-testid="sidebar"
+        isOpen={false}
+        onClose={[Function]}
+      />
+    </div>
+  </div>
+</div>
+`;

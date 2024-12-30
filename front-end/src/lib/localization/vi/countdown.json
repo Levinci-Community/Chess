@@ -1,0 +1,14 @@
+{
+  "title": "Hướng dẫn Đếm ngược",
+  "description": "Bạn sẽ giải thế cờ nhiều nhất có thể trước khi hết thời gian.",
+  "steps": [
+    {
+      "title": "Thời gian",
+      "description": "Đếm ngược cho đếm khi trò chơi kết thúc."
+    },
+    {
+      "title": "Giải thế cờ",
+      "description": "Giải thế cờ nhiều nhất có thể để đạt điểm số cao."
+    }
+  ]
+}

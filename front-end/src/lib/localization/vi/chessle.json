@@ -1,0 +1,22 @@
+{
+  "title": "Hướng dẫn Chessle",
+  "description": "Chessle là một trò chơi trực tuyến thú vị kiểm tra kiến thức của bạn về các khai cuộc cờ vua",
+  "steps": [
+    {
+      "title": "Màu xanh lá cây",
+      "description": "Nước đi này đúng và được thực hiện ở lượt đúng."
+    },
+    {
+      "title": "Màu vàng",
+      "description": "Nước đi này được thực hiện bởi trắng hoặc đen, nhưng không ở lượt cụ thể mà bạn đã đặt nó."
+    },
+    {
+      "title": "Màu xám",
+      "description": "Nước đi này không được thực hiện bởi trắng hoặc đen trong giải pháp."
+    },
+    {
+      "title": "Thắng trong 6 lượt",
+      "description": "Bạn có tổng cộng 6 lần thử để đoán đúng toàn bộ chuỗi khai cuộc. Với mỗi lần đoán, bạn sẽ có thể thu hẹp các khả năng và cuối cùng giải được câu đố."
+    }
+  ]
+}

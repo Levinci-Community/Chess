@@ -1,0 +1,18 @@
+{
+  "title": "Infinity Mode Tutorial",
+  "description": "Solve all the puzzles we have curated for you.",
+  "steps": [
+    {
+      "title": "Time",
+      "description": "No time limit applies."
+    },
+    {
+      "title": "Puzzle Difficulty",
+      "description": "You can choose the difficulty level according to your preference."
+    },
+    {
+      "title": "Hints",
+      "description": "If you can't find the solution, select a hint to see the answer."
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "heading": "Quản Lý Giải Đấu",
+  "create": "Tạo Giải Đấu Mới",
+  "update": "Chỉnh Sửa Giải Đấu",
+  "no": "STT",
+  "name": "Tên",
+  "description": "Mô tả",
+  "tournaments": "Giải đấu",
+  "tournament": "Giải đấu",
+  "ranking": "Xếp hạng",
+  "leave": "Rời khỏi",
+  "join": "Tham gia",
+  "username": "Tên người dùng",
+  "point": "Điểm",
+  "your_games": "Ván cờ của bạn",
+  "scoreboard": "Bảng điểm",
+  "rating":"Đánh giá",
+  "join_success": "Tham gia thành công",
+  "leave_success":"Rời khỏi thành công",
+  "back_to_tournament": "Quay lại giải đấu"
+}

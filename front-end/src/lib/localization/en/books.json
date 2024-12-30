@@ -1,0 +1,13 @@
+{
+  "heading": "Books Management",
+  "create": "Create New Book",
+  "update": "Edit Book",
+  "no": "No",
+  "title": "Title",
+  "description": "Description",
+  "image": "Image",
+  "content": "Content",
+  "updated_at": "Updated At",
+  "books": "Books",
+  "book": "Book"
+}

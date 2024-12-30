@@ -1,0 +1,14 @@
+{
+  "title": "Repeat Mode Tutorial",
+  "description": "Solve chess puzzles level by level.",
+  "steps": [
+    {
+      "title": "Time",
+      "description": "Solve quickly to achieve a streak."
+    },
+    {
+      "title": "Puzzle",
+      "description": "Solve all puzzles correctly to level up."
+    }
+  ]
+}

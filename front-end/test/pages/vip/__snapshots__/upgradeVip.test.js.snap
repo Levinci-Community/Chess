@@ -1,0 +1,133 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders UpgradeVipPage snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="chakra-container css-1d4uest"
+  >
+    <div
+      class="chakra-card css-1cn5hig"
+    >
+      <h1
+        class="chakra-heading css-hvj0dp"
+      >
+        vip.title
+      </h1>
+      <p
+        class="chakra-text css-6moqj9"
+      >
+        vip.description
+      </p>
+      <div
+        class="css-8pwq6c"
+      >
+        <p
+          class="chakra-text css-9c40gh"
+        >
+          200.000
+        </p>
+        <p
+          class="chakra-text css-p8ws4k"
+        >
+          vnđ / vip.month
+        </p>
+      </div>
+      <ul
+        class="css-8yrq6j"
+        role="list"
+      >
+        <li
+          class="css-0"
+        >
+          <svg
+            class="chakra-icon chakra-icon css-16alosh"
+            focusable="false"
+            role="presentation"
+            viewBox="0 0 14 14"
+          >
+            <g
+              fill="currentColor"
+            >
+              <polygon
+                points="5.5 11.9993304 14 3.49933039 12.5 2 5.5 8.99933039 1.5 4.9968652 0 6.49933039"
+              />
+            </g>
+          </svg>
+          <p
+            class="chakra-text css-1tyv28u"
+          >
+            vip.better_puzzle
+          </p>
+          <p
+            class="chakra-text css-h62wxe"
+          >
+            vip.better_puzzle_info
+          </p>
+        </li>
+        <li
+          class="css-0"
+        >
+          <svg
+            class="chakra-icon chakra-icon css-16alosh"
+            focusable="false"
+            role="presentation"
+            viewBox="0 0 14 14"
+          >
+            <g
+              fill="currentColor"
+            >
+              <polygon
+                points="5.5 11.9993304 14 3.49933039 12.5 2 5.5 8.99933039 1.5 4.9968652 0 6.49933039"
+              />
+            </g>
+          </svg>
+          <p
+            class="chakra-text css-1tyv28u"
+          >
+            vip.powerful_ai
+          </p>
+          <p
+            class="chakra-text css-h62wxe"
+          >
+            vip.powerful_ai_info
+          </p>
+        </li>
+        <li
+          class="css-0"
+        >
+          <svg
+            class="chakra-icon chakra-icon css-16alosh"
+            focusable="false"
+            role="presentation"
+            viewBox="0 0 14 14"
+          >
+            <g
+              fill="currentColor"
+            >
+              <polygon
+                points="5.5 11.9993304 14 3.49933039 12.5 2 5.5 8.99933039 1.5 4.9968652 0 6.49933039"
+              />
+            </g>
+          </svg>
+          <p
+            class="chakra-text css-1tyv28u"
+          >
+            vip.special_tag
+          </p>
+          <p
+            class="chakra-text css-h62wxe"
+          >
+            vip.special_tag_info
+          </p>
+        </li>
+      </ul>
+      <button
+        class="chakra-button css-qbtwd9"
+        type="button"
+      >
+        vip.upgrade_your_vip
+      </button>
+    </div>
+  </div>
+</DocumentFragment>
+`;

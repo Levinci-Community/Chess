@@ -1,0 +1,34 @@
+{
+  "heading": "Puzzles Management",
+  "generate": "Generate",
+  "fen": "FEN",
+  "moves": "Moves",
+  "puzzle": "Puzzle",
+  
+    "title": "Basic Chess Puzzle",
+    "description": "A brief explanation of the puzzle's objective.",
+    "steps": [
+      {
+        "title": "Analyze the Position",
+        "description": "Examine the positions of the pieces, paying special attention to the King."
+      },
+      {
+        "title": "Identify the Key Idea",
+        "description": "Look for a common tactic or plan that can help you solve the puzzle."
+      },
+      {
+        "title": "Calculate Variations",
+        "description": "Once you have an idea, calculate possible moves and the consequences of each move."
+      },
+      {
+        "title": "Test and Adjust",
+        "description": "After calculating variations, check if your tactic works in all cases."
+      },
+      {
+        "title": "Explain the Moves",
+        "description": "Write down each move in your solution and explain the reasoning behind each move."
+      }
+    ]
+  
+  
+}

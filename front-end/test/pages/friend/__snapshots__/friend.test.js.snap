@@ -1,0 +1,97 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders FriendPage snapshot 1`] = `
+<div>
+  <div
+    class="chakra-container css-3laa41"
+  >
+    <h2
+      class="chakra-heading css-zx6l2c"
+    >
+      chat.messages
+    </h2>
+    <div
+      class="css-196weuw"
+    >
+      <div
+        class="css-1jmgw19"
+      >
+        <div
+          class="css-3z23up"
+        >
+          <input
+            class="chakra-input css-0"
+            placeholder="common.search"
+          />
+          <button
+            class="chakra-button css-1lrwv17"
+            title="search"
+            type="button"
+          >
+            <svg
+              class="chakra-icon css-onkibi"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M23.384,21.619,16.855,15.09a9.284,9.284,0,1,0-1.768,1.768l6.529,6.529a1.266,1.266,0,0,0,1.768,0A1.251,1.251,0,0,0,23.384,21.619ZM2.75,9.5a6.75,6.75,0,1,1,6.75,6.75A6.758,6.758,0,0,1,2.75,9.5Z"
+                fill="currentColor"
+              />
+            </svg>
+          </button>
+        </div>
+        <div
+          class="css-dnv942"
+        />
+      </div>
+      <div
+        class="css-7scmt2"
+      />
+      <div
+        class="css-1e94y8a"
+      >
+        <div
+          class="css-1oal0ea"
+        >
+          <div
+            class="css-16r1tk9"
+          >
+            <p
+              class="chakra-text css-0"
+            >
+              chat.no_message
+            </p>
+          </div>
+        </div>
+        <div
+          class="css-rc5oly"
+        >
+          <input
+            class="chakra-input css-0"
+            placeholder="chat.type_your_message"
+            value=""
+          />
+          <button
+            class="chakra-button css-2jcw1j"
+            type="button"
+          >
+            <svg
+              fill="currentColor"
+              height="1em"
+              stroke="currentColor"
+              stroke-width="0"
+              viewBox="0 0 512 512"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="m476.59 227.05-.16-.07L49.35 49.84A23.56 23.56 0 0 0 27.14 52 24.65 24.65 0 0 0 16 72.59v113.29a24 24 0 0 0 19.52 23.57l232.93 43.07a4 4 0 0 1 0 7.86L35.53 303.45A24 24 0 0 0 16 327v113.31A23.57 23.57 0 0 0 26.59 460a23.94 23.94 0 0 0 13.22 4 24.55 24.55 0 0 0 9.52-1.93L476.4 285.94l.19-.09a32 32 0 0 0 0-58.8z"
+              />
+            </svg>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

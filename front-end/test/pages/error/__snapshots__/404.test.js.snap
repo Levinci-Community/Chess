@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders NotFoundPage snapshot 1`] = `
+<div>
+  <div
+    class="chakra-container css-vl7sen"
+  >
+    <div
+      class="chakra-stack css-1kbzohu"
+    >
+      <h2
+        class="chakra-heading css-zov4ca"
+      >
+        404 Not Found
+      </h2>
+      <p
+        class="chakra-text css-0"
+      >
+        The page you are looking for might be in another castle.
+         
+        <a
+          class="chakra-link css-1o61trh"
+        >
+          Go back home
+        </a>
+      </p>
+    </div>
+  </div>
+</div>
+`;

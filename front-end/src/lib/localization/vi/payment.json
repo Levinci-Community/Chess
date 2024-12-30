@@ -1,0 +1,13 @@
+{
+  "amount_due": "Số tiền cần thanh toán",
+  "payment_method": "Phương thức thanh toán",
+  "vnpay": "Thẻ ATM/Visa/Master/JCB/QR Pay qua cổng VNPAY",
+  "vnpay_description": "Thẻ ATM/Visa/Master/JCB/QR Pay",
+  "zalopay": "Thẻ ATM nội địa qua cổng ZaloPay",
+  "zalopay_description": "Thẻ ATM nội địa",
+  "momo": "Ví MoMo",
+  "momo_description": "Thanh toán bằng ví MoMo",
+  "pay_now": "Thanh toán đơn hàng",
+  "payment_successfull": "Chúc mừng bạn đã thanh toán thành công. Hãy tận hưởng dịch vụ VIP!",
+  "payment_failed": "Thanh toán không thành công!"
+}

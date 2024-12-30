@@ -1,0 +1,143 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders AboutPage snapshot 1`] = `
+<div>
+  <div
+    class="chakra-container css-5a9zac"
+  >
+    <div
+      class="css-rnebx4"
+    >
+      <img
+        alt="about.aboutUs.heading"
+        class="chakra-image css-1mtjbly"
+        src="./logo.png"
+      />
+      <div
+        class="css-1isemmb"
+      >
+        <h1
+          class="chakra-heading css-1itv5e3"
+        >
+          about.aboutUs.heading
+        </h1>
+        <p
+          class="chakra-text css-a66aq7"
+        >
+          about.aboutUs.content
+        </p>
+      </div>
+    </div>
+    <div
+      class="css-rnebx4"
+    >
+      <div
+        class="css-12z0wuy"
+      >
+        <h3
+          class="chakra-heading css-wlea3r"
+        >
+          about.ourMission.heading
+        </h3>
+        <ol
+          class="css-1dg6mvm"
+          role="list"
+        >
+          <li
+            class="css-wlea3r"
+          >
+            <p
+              class="chakra-text css-in3yi3"
+            >
+              about.ourMission.list.promoteChess
+              :
+            </p>
+             
+            <p
+              class="chakra-text css-1j3ao5w"
+            >
+              about.ourMission.content.promoteChess
+            </p>
+          </li>
+          <li
+            class="css-wlea3r"
+          >
+            <p
+              class="chakra-text css-in3yi3"
+            >
+              about.ourMission.list.developSkills
+              :
+            </p>
+             
+            <p
+              class="chakra-text css-1j3ao5w"
+            >
+              about.ourMission.content.developSkills
+            </p>
+          </li>
+          <li
+            class="css-wlea3r"
+          >
+            <p
+              class="chakra-text css-in3yi3"
+            >
+              about.ourMission.list.buildCommunity
+              :
+            </p>
+             
+            <p
+              class="chakra-text css-1j3ao5w"
+            >
+              about.ourMission.content.buildCommunity
+            </p>
+          </li>
+          <li
+            class="css-wlea3r"
+          >
+            <p
+              class="chakra-text css-in3yi3"
+            >
+              about.ourMission.list.encourageSportsmanship
+              :
+            </p>
+             
+            <p
+              class="chakra-text css-1j3ao5w"
+            >
+              about.ourMission.content.encourageSportsmanship
+            </p>
+          </li>
+        </ol>
+      </div>
+      <img
+        alt="About Us"
+        class="chakra-image css-1wo6w7g"
+        src="[object Object]"
+      />
+    </div>
+    <div
+      class="css-rnebx4"
+    >
+      <img
+        alt="About Us"
+        class="chakra-image css-1wo6w7g"
+        src="[object Object]"
+      />
+      <div
+        class="css-d0uhtl"
+      >
+        <h3
+          class="chakra-heading css-wlea3r"
+        >
+          about.whatWeOffer.heading
+        </h3>
+        <p
+          class="chakra-text css-14e3x48"
+        >
+          about.whatWeOffer.content
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+`;

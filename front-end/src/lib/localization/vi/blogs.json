@@ -1,0 +1,22 @@
+{
+  "amount_due": "Hạn thanh toán",
+  "payment_method": "Phương thức thanh toán",
+  "vnpay": "VNPAY",
+  "vnpay_description": "Thanh toán bằng ATM/Visa/Master/JCB/QR với VNPAY",
+  "zalopay": "ZaloPay",
+  "zalopay_description": "Thanh toán bằng ATM với ZaloPay",
+  "momo": "MoMo",
+  "momo_description": "Bằng Ví MoMo",
+  "pay_now": "Thanh toán",
+  "heading": "Quản lý bài viết",
+  "create": "Tạo bài viết",
+  "update": "Sửa bài viết",
+  "no": "STT",
+  "title": "Tên",
+  "description": "Mô tả",
+  "image": "Hình ảnh",
+  "content": "Nội dung",
+  "updated_at": "Cập nhật",
+  "blogs": "Bài viết",
+  "blog": "Bài viết"
+}

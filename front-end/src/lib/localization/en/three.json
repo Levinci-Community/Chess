@@ -1,0 +1,18 @@
+{
+  "title": "Three Mode Tutorial",
+  "description": "Three minutes, three lives, and three hints.",
+  "steps": [
+    {
+      "title": "Three Minutes",
+      "description": "3-minute countdown until the game ends."
+    },
+    {
+      "title": "Three Lives",
+      "description": "You have 3 incorrect attempts before the game ends."
+    },
+    {
+      "title": "Three Hints",
+      "description": "You can use 3 hints to get the answers."
+    }
+  ]
+}

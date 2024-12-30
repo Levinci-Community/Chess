@@ -1,0 +1,213 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders TournamentPage snapshot 1`] = `
+<div>
+  <div
+    class="chakra-container css-3laa41"
+  >
+    <div
+      class="css-k008qs"
+    >
+      <div
+        class="css-1q77jyp"
+      >
+        <div
+          class="css-70qvj9"
+        >
+          <p
+            class="chakra-text css-1n9r2z"
+          >
+            tournaments.tournament
+             
+             &gt; 
+          </p>
+          <h2
+            class="chakra-heading css-wd4ijf"
+          />
+        </div>
+        <div
+          class="css-k008qs"
+        >
+          <p
+            class="chakra-text css-1mrk1dy"
+          />
+          <div
+            class="css-17xejub"
+          />
+          <p
+            class="chakra-text css-8azyo4"
+          >
+            common.created_at
+             
+            NaN/NaN/NaN
+          </p>
+        </div>
+        <hr
+          aria-orientation="horizontal"
+          class="chakra-divider css-1xih39s"
+        />
+        <div
+          class="css-0"
+        >
+          <div
+            class="css-brniz9"
+          >
+            <p
+              class="chakra-text css-1b2okza"
+            >
+              tournaments.scoreboard
+            </p>
+            <div
+              class="css-17xejub"
+            />
+            <button
+              class="chakra-button css-4xx2wk"
+              data-loading=""
+              disabled=""
+              type="button"
+            >
+              <div
+                class="chakra-button__spinner chakra-button__spinner--start css-1vsp78f"
+              >
+                <div
+                  class="chakra-spinner css-1plzyg6"
+                >
+                  <span
+                    class="css-8b45rq"
+                  >
+                    Loading...
+                  </span>
+                </div>
+              </div>
+              <span
+                class="css-q7lffx"
+              >
+                <svg
+                  class="chakra-icon css-onkibi"
+                  focusable="false"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M0,12a1.5,1.5,0,0,0,1.5,1.5h8.75a.25.25,0,0,1,.25.25V22.5a1.5,1.5,0,0,0,3,0V13.75a.25.25,0,0,1,.25-.25H22.5a1.5,1.5,0,0,0,0-3H13.75a.25.25,0,0,1-.25-.25V1.5a1.5,1.5,0,0,0-3,0v8.75a.25.25,0,0,1-.25.25H1.5A1.5,1.5,0,0,0,0,12Z"
+                    fill="currentColor"
+                  />
+                </svg>
+                <p
+                  class="chakra-text css-14gt3bc"
+                >
+                  tournaments.join
+                </p>
+              </span>
+            </button>
+          </div>
+          <table
+            class="chakra-table css-hq4y78"
+          >
+            <thead
+              class="css-4xl7y1"
+            >
+              <tr
+                class="css-0"
+              >
+                <th
+                  class="css-cd4ll0"
+                >
+                  common.no
+                </th>
+                <th
+                  class="css-124zb1q"
+                >
+                  tournaments.username
+                </th>
+                <th
+                  class="css-18467a"
+                >
+                  tournaments.name
+                </th>
+                <th
+                  class="css-w56oqh"
+                >
+                  tournaments.rating
+                </th>
+                <th
+                  class="css-v91fvg"
+                >
+                  tournaments.point
+                </th>
+              </tr>
+            </thead>
+            <tbody
+              class="css-0"
+            />
+            <tfoot
+              class="css-0"
+            >
+              <tr
+                class="css-0"
+              >
+                <td
+                  class="css-0"
+                  colspan="4"
+                >
+                  <div
+                    class="css-9fzojd"
+                  >
+                    <div
+                      class="chakra-button__group css-1ind3v2"
+                      data-orientation="horizontal"
+                      role="group"
+                    >
+                      <button
+                        class="chakra-button css-1fysbuj"
+                        type="button"
+                      >
+                        <svg
+                          class="chakra-icon css-onkibi"
+                          focusable="false"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            d="M15.41 7.41L14 6l-6 6 6 6 1.41-1.41L10.83 12z"
+                            fill="currentColor"
+                          />
+                        </svg>
+                      </button>
+                      <button
+                        class="chakra-button css-1fysbuj"
+                        type="button"
+                      >
+                        <svg
+                          class="chakra-icon css-onkibi"
+                          focusable="false"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"
+                            fill="currentColor"
+                          />
+                        </svg>
+                      </button>
+                    </div>
+                  </div>
+                </td>
+              </tr>
+            </tfoot>
+          </table>
+        </div>
+      </div>
+      <div
+        class="css-17xejub"
+      />
+      <div
+        class="css-1bhcvua"
+      >
+        <p
+          class="chakra-text css-in3yi3"
+        >
+          tournaments.your_games
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,22 @@
+{
+  "title": "Chessle Tutorial",
+  "description": "Chessle is a fun online game that tests your knowledge of chess openings",
+  "steps": [
+    {
+      "title": "Green",
+      "description": "This move is correct and played on the right turn."
+    },
+    {
+      "title": "Yellow",
+      "description": "This move is played by either white or black, but not on the specific turn you placed it."
+    },
+    {
+      "title": "Gray",
+      "description": "This move is not played by either white or black in the solution."
+    },
+    {
+      "title": "Win in 6 Tries",
+      "description": "You have a total of 6 attempts to guess the complete opening sequence correctly. With each guess, you should be able to narrow down the possibilities and eventually solve the puzzle."
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "title": "Hướng dẫn Lặp lại",
+  "description": "Giải thế cờ theo từng cấp độ",
+  "steps": [
+    {
+      "title": "Thời gian",
+      "description": "Giải thật nhanh để đạt chuỗi."
+    },
+    {
+      "title": "Thế cờ",
+      "description": "Giải chính xác tất cả thế cờ để lên cấp."
+    }
+  ]
+}

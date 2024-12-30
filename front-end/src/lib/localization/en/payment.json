@@ -1,0 +1,13 @@
+{
+  "amount_due": "Amount Due",
+  "payment_method": "Payment Method",
+  "vnpay": "VNPAY",
+  "vnpay_description": "Pay with ATM/Visa/Master/JCB/QR via VNPAY",
+  "zalopay": "ZaloPay",
+  "zalopay_description": "Pay with ATM via ZaloPay",
+  "momo": "MoMo",
+  "momo_description": "Pay with MoMo Wallet",
+  "pay_now": "Pay Now",
+  "payment_successfull": "Congratulations on your successful payment. Enjoy the VIP service!",
+  "payment_failed": "Payment fail!"
+}

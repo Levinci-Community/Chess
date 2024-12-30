@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Components > Sidebar renders a snapshot for Sidebar using renderer 1`] = `
+[
+  <span />,
+  <span />,
+  <span
+    hidden={true}
+    id="__chakra_env"
+  />,
+]
+`;

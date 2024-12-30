@@ -1,0 +1,13 @@
+{
+  "heading": "Quản Lý Bảng hiệu",
+  "create": "Tạo Bảng hiệu mới",
+  "update": "Chỉnh Sửa Bảng hiệu",
+  "no": "STT",
+  "title": "Tên",
+  "description": "Mô tả",
+  "image": "Hình ảnh",
+  "content": "Nội dung",
+  "updated_at": "Cập nhật",
+  "banners": "Bảng hiệu",
+  "banner": "Bảng hiệu"
+}

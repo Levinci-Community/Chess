@@ -1,0 +1,123 @@
+services:
+  frontend:
+    container_name: chess_frontend
+    image: leetun2k2/chess_frontend:latest
+    ports:
+      - 10040:80
+    volumes:
+      - static_shared:/app/public
+    depends_on:
+      - backend
+      - chessBlitzTactics
+    networks:
+      - frontend_backend
+      - frontend_stockfish
+      - frontend_pikafish
+      - frontend-blitz-tactics
+
+  backend:
+    container_name: chess_backend
+    image: leetun2k2/chess_backend:latest
+    volumes:
+      - ./uploads:/app/uploads
+    environment:
+      - NEW_RELIC_LICENSE_KEY=3b17d5c55b244bdd5433f5c852d84f13FFFFNRAL
+      - NEW_RELIC_APP_NAME=Python Application
+    stdin_open: true
+    tty: true
+    restart: always
+    depends_on:
+      - mongodb
+      - redis
+      - stockfish
+      - pikafish
+      - chessBlitzTactics
+    networks:
+      - frontend_backend
+      - backend_stockfish
+      - backend_pikafish
+      - backend_mongodb
+      - backend_redis
+      - backend-blitz-tactics
+
+  stockfish:
+    container_name: chess_stockfish
+    image: leetun2k2/stockfish:latest
+    networks:
+      - frontend_stockfish
+      - backend_stockfish
+
+  pikafish:
+    container_name: chess_pikafish
+    image: leetun2k2/pikafish:latest
+    networks:
+      - frontend_pikafish
+      - backend_pikafish
+
+  chessBlitzTactics:
+    container_name: chessBlitzTactics
+    image: leetun2k2/chess_blitz-tactics:latest
+    restart: always
+    working_dir: /app
+    volumes:
+      - static_shared:/app/public
+    depends_on:
+      - postgres
+    networks:
+      - blitz-tactics-postgres
+      - frontend-blitz-tactics
+      - backend-blitz-tactics
+
+  postgres:
+    container_name: chess_postgres
+    image: postgres:9-alpine
+    environment:
+      POSTGRES_USER: username
+      POSTGRES_PASSWORD: password
+      POSTGRES_HOST_AUTH_METHOD: trust
+      POSTGRES_DB: database
+      PGUSER: username
+    restart: always
+    volumes:
+      - ./postgres_data:/var/lib/postgresql/data
+    networks:
+      - blitz-tactics-postgres
+
+  mongodb:
+    container_name: chess_mongodb
+    image: mongo:latest
+    volumes:
+      - ./mongodb_data:/data/db
+    networks:
+      - backend_mongodb
+
+  redis:
+    container_name: chess_redis
+    image: redis:latest
+    networks:
+      - backend_redis
+
+volumes:
+  static_shared:
+
+networks:
+  frontend_backend:
+    driver: bridge
+  backend_mongodb:
+    driver: bridge
+  backend_redis:
+    driver: bridge
+  frontend_stockfish:
+    driver: bridge
+  frontend_pikafish:
+    driver: bridge
+  backend_stockfish:
+    driver: bridge
+  backend_pikafish:
+    driver: bridge
+  blitz-tactics-postgres:
+    driver: bridge
+  frontend-blitz-tactics:
+    driver: bridge
+  backend-blitz-tactics:
+    driver: bridge

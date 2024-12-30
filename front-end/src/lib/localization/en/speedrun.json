@@ -1,0 +1,14 @@
+{
+  "title": "Speedrun Mode Tutorial",
+  "description": "Solve puzzles and track your completion time.",
+  "steps": [
+    {
+      "title": "Time",
+      "description": "Time is measured from when you start until you finish all the puzzles."
+    },
+    {
+      "title": "Puzzles",
+      "description": "Random difficulty, solve quickly to achieve the best record."
+    }
+  ]
+}

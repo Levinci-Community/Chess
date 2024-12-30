@@ -1,0 +1,13 @@
+{
+  "heading": "Videos Management",
+  "create": "Create New Video",
+  "update": "Edit Video",
+  "no": "No",
+  "title": "Title",
+  "description": "Description",
+  "image": "Image",
+  "content": "Content",
+  "updated_at": "Updated At",
+  "video": "Video",
+  "videos": "Videos"
+}

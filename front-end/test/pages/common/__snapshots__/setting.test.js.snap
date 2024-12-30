@@ -1,0 +1,117 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders SettingsPage snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="chakra-container css-1c3tr3p"
+  >
+    <h2
+      class="chakra-heading css-1qm1lh"
+    >
+      settings.heading
+    </h2>
+    <div
+      class="css-ohco1m"
+    >
+      <div
+        class="chakra-stack css-f8f1y1"
+      >
+        <h2
+          class="chakra-heading css-wlea3r"
+        >
+          settings.languageSettings
+        </h2>
+        <div
+          class="css-17xejub"
+        />
+        <div
+          class="chakra-select__wrapper css-wcqg5i"
+        >
+          <select
+            class="chakra-select css-1ik61og"
+          >
+            <option
+              value="en"
+            >
+              settings.english
+            </option>
+            <option
+              value="vi"
+            >
+              settings.vietnamese
+            </option>
+          </select>
+          <div
+            class="chakra-select__icon-wrapper css-162mkon"
+          >
+            <svg
+              aria-hidden="true"
+              class="chakra-select__icon"
+              focusable="false"
+              role="presentation"
+              style="width: 1em; height: 1em; color: currentColor;"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z"
+                fill="currentColor"
+              />
+            </svg>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="css-ohco1m"
+    >
+      <div
+        class="chakra-stack css-f8f1y1"
+      >
+        <h2
+          class="chakra-heading css-wlea3r"
+        >
+          settings.themeSettings
+        </h2>
+        <div
+          class="css-17xejub"
+        />
+        <div
+          class="chakra-select__wrapper css-wcqg5i"
+        >
+          <select
+            class="chakra-select css-1ik61og"
+          >
+            <option
+              value="light"
+            >
+              settings.light
+            </option>
+            <option
+              value="dark"
+            >
+              settings.dark
+            </option>
+          </select>
+          <div
+            class="chakra-select__icon-wrapper css-162mkon"
+          >
+            <svg
+              aria-hidden="true"
+              class="chakra-select__icon"
+              focusable="false"
+              role="presentation"
+              style="width: 1em; height: 1em; color: currentColor;"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z"
+                fill="currentColor"
+              />
+            </svg>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

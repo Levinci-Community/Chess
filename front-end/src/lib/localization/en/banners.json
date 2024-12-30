@@ -1,0 +1,13 @@
+{
+  "heading": "Banners Management",
+  "create": "Create Banner",
+  "update": "Update Banner",
+  "no": "STT",
+  "title": "Title",
+  "description": "Description",
+  "image": "Image",
+  "content": "Content",
+  "updated_at": "Updated At",
+  "banners": "Banners",
+  "banner": "Banners"
+}
